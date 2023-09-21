@@ -1,0 +1,24 @@
+:root {
+  --size-picture: 2.5rem;
+  --circle-center-top: calc(50vh - calc(var(--size-picture) / 2));
+  --circle-center-left: calc(50vw - calc(var(--size-picture) / 2));
+}
+
+div.contenair {
+  height: 100vh;
+  width: 100vw;
+  background-color: yellow;
+  position: relative;
+}
+
+div.image {
+  position: absolute;
+  top: var(--circle-center-top);
+  left: var(--circle-center-left);
+
+  border: 1px solid black;
+  width: var(--size-picture);
+  min-height: var(--size-picture);
+  border-radius: calc(var(--size-picture) / 2);
+  text-align: center;
+}
