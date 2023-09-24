@@ -1,7 +1,11 @@
 :root {
-  --size-picture: 2.5rem;
+  --size-picture: 4em;
   --circle-center-top: calc(50vh - calc(var(--size-picture) / 2));
   --circle-center-left: calc(50vw - calc(var(--size-picture) / 2));
+}
+* {
+  margin: 0;
+  padding: 0;
 }
 
 div.contenair {
@@ -21,4 +25,17 @@ div.image {
   min-height: var(--size-picture);
   border-radius: calc(var(--size-picture) / 2);
   text-align: center;
+  background-color: red;
+}
+div.image:hover {
+  min-height: calc(var(--size-picture) * 2);
+  min-width: calc(var(--size-picture) * 2);
+  border-radius: calc(var(--size-picture) * 2);
+  z-index: 1;
+  background-color: aqua;
+}
+div.image > img {
+  height: var(--size-picture);
+  width: var(--size-picture);
+  border-radius: calc(var(--size-picture) / 2);
 }
