@@ -11,8 +11,8 @@
     url(‘https://fonts.googleapis.com/css2?family=Roboto&display=swap’);
   --font-h2: @import
     url(‘https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap’);
-  --font-h3: var(var(--font-h2));
-  --font-test: @import
+  --font-h3: var(--font-h2);
+  --font-text: @import
     url(‘https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap’);
 
   --font-size-h1: 2rem;

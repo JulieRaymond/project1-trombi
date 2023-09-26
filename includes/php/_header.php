@@ -1,8 +1,8 @@
 <?php
 if (isset($_GET["name"])) {
-    $pageTittle = $_GET["name"];
+    $pageTitle = $_GET["name"];
 } else {
-    if (!isset($pageTittle)) {
+    if (!isset($pageTitle)) {
         $pageTittle = $pageName;
     }
 }
