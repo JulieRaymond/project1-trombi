@@ -1,0 +1,21 @@
+:root {
+  --color-background-pages: #e3d4d5;
+  --color-background-button: #bea695;
+  --color-background-navbar: #42354a;
+  --color-bagkground-footer: var(var(--color-background-navbar));
+  --color-logo: #ed6c6d;
+  --color-border: var(var(--color-logo));
+  --color-font-h1: black;
+
+  --font-h1: @import
+    url(‘https://fonts.googleapis.com/css2?family=Roboto&display=swap’);
+  --font-h2: @import
+    url(‘https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap’);
+  --font-h3: var(var(--font-h2));
+  --font-test: @import
+    url(‘https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap’);
+
+  --font-size-h1: 2rem;
+  --font-size-h2: 1.75rem;
+  --font-size-h3: 1.5rem;
+}
