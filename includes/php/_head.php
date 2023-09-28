@@ -16,6 +16,7 @@ if (isset($_GET["name"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $pageTittle ?></title>
     <link rel="stylesheet" href="../includes/css/generalStyle.css">
+    <link rel="stylesheet" href="../includes/css/_navbar.css">
     <?php
     if (isset($pageName)) {
         echo '<link rel="stylesheet" href="../includes/css/' . $pageName . '.css">';
