@@ -1,12 +1,20 @@
 <?php
 $pageTitle = "Contact";
 $pageName = "contact";
+<<<<<<< HEAD
 include "includes/php/_head.php";
+=======
+include "includes/php/_header.php";
+>>>>>>> branchvirginie
 ?>
 <main> 
  
     <h1> Contactez-nous !</h1>
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> branchvirginie
 <p> Prêt à rencontrer nos super-devs ? <br>
     
     Remplisser le formulaire et laissez-nous coder !</p>

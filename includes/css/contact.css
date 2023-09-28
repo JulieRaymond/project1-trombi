@@ -1,20 +1,24 @@
 @import url(generalStyle.css);
 
+
 h2 {
 
  text-align: center;
 }
+
+
 p {
 width: 70%;
-padding: auto;
+text-align: left;
 margin-top: 10vw;
 margin-bottom: 30vw;
 }
 
 
 form {
+
   background-color: pink;
-    display: flex;
+ display: flex;
     flex-direction: column;
     width: 70%;
     margin: auto;
