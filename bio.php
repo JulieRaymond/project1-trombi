@@ -15,7 +15,7 @@ include "includes/php/_header.php";
     <p>Montreuil</p>
     <p>etienne.buchhold@hotmail.com</p>
   </div>
-  <div class="boxC">C</div>
+  <div class="boxperso">C</div>
   <div class="boxD">D</div>
   <div class="boxBio">E</div>
 </div>
