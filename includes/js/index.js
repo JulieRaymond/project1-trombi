@@ -10,7 +10,7 @@ function distributeFields() {
       angleIncrement2 = (Math.PI * 2) / 5,
       currentAngle1 = 0,
       currentAngle2 = 0,
-      radius1 = 200,
+      radius1 = 150,
       radius2 = radius1 / 2; // Rayon pour le deuxième cercle (la moitié du 1er cercle)
 
     fields.forEach((field, index) => {
