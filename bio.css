@@ -1,0 +1,19 @@
+.container{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.container div{
+    background-color: brown;
+    padding: 5px; 
+    margin: 5px;
+    border-radius: 40px;
+}
+.boxinfo{
+    text-align: center;
+}
+.boxBio{
+    grid-column: 1/3;
+}
