@@ -5,9 +5,6 @@ body {
 }
 
 h1 {
-  /* color: var(--color-font-h1);
-  font-family: var(--font-h1);
-  font-size: var(--font-size-h1); */
   display: grid;
   align-content: center;
   justify-content: center;
@@ -15,7 +12,7 @@ h1 {
 
 #container {
   min-width: 100%;
-  min-height: 100vh; /* occuper la hauteur totale de l'écran */
+  min-height: 100vh; /* occupe la hauteur totale de l'écran */
   position: relative;
   display: flex;
   justify-content: center;
