@@ -23,6 +23,6 @@ if (isset($_GET["name"])) {
     }
     ?>
 </head>
-<?php include "includes/php/navbar.php" ?>
+<?php include "includes/php/_navbar.php" ?>
 
 <body>
