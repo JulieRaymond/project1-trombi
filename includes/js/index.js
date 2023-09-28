@@ -1,60 +1,9 @@
-//MA FONCTION D'ORIGINE A AMELIORER
-// function distributeFields() {
-//   let radius = 280;
-//   let fields = document.querySelectorAll(".field"),
-//     totalFields = fields.length,
-//     angleIncrement = (2 * Math.PI) / totalFields,
-//     currentAngle = 0;
-
-//   fields.forEach((field, index) => {
-//     let x = Math.cos(currentAngle) * radius;
-//     let y = Math.sin(currentAngle) * radius;
-
-//     field.style.transform = `translate(${x}px, ${y}px)`;
-//     currentAngle += angleIncrement;
-//   });
-// }
-// distributeFields();
-
-/////////////ENFIN TROUVE A GARDER RESPONSIVE MAIS 15 DIV UNIQUEMENT////////////////////
-
-// function distributeFields(radius) {
-//   let fields = document.querySelectorAll(".field"),
-//     totalFields = fields.length,
-//     angleIncrement = (2 * Math.PI) / totalFields,
-//     currentAngle = 0;
-
-//   fields.forEach((field, index) => {
-//     let x = Math.cos(currentAngle) * radius;
-//     let y = Math.sin(currentAngle) * radius;
-
-//     field.style.transform = `translate(${x}px, ${y}px)`;
-//     currentAngle += angleIncrement;
-//   });
-// }
-
-// function updateRadius() {
-//   const windowWidth = window.innerWidth;
-
-//   // Réduit le rayon à 100 lorsque la largeur de la fenêtre est inférieure à 685px, sinon revenir à 280.
-//   let radius = windowWidth < 685 ? 170 : 280;
-
-//   distributeFields(radius); // Appele la fonction pour mettre à jour les positions avec le nouveau rayon.
-// }
-
-// // Appele la fonction de mise à jour initiale du rayon au chargement de la page.
-// window.addEventListener("load", updateRadius);
-
-// // Écoute l'événement de redimensionnement de la fenêtre et mettre à jour le rayon en temps réel.
-// window.addEventListener("resize", updateRadius);
-
-/////////////////////////////ESSAYE AVEC DEUX CERCLES////////////////
 function distributeFields() {
   let windowWidth = window.innerWidth;
   let radius = 280;
 
   if (windowWidth < 685) {
-    // Si la largeur de la fenêtre est inférieure à 685px, répartissez les 15 div en deux cercles.
+    // Si la largeur de la fenêtre < à 685px, répartis les 15 div en 2 cercles.
     let fields = document.querySelectorAll(".field"),
       totalFields = fields.length,
       angleIncrement1 = (Math.PI * 2) / 10,
@@ -62,7 +11,7 @@ function distributeFields() {
       currentAngle1 = 0,
       currentAngle2 = 0,
       radius1 = 200,
-      radius2 = radius1 / 2; // Rayon pour le deuxième cercle (la moitié du premier cercle)
+      radius2 = radius1 / 2; // Rayon pour le deuxième cercle (la moitié du 1er cercle)
 
     fields.forEach((field, index) => {
       let x, y;
@@ -80,7 +29,7 @@ function distributeFields() {
       field.style.transform = `translate(${x}px, ${y}px)`;
     });
   } else {
-    // Si la largeur de la fenêtre est supérieure à 685px, répartissez les 15 div sur un seul cercle.
+    // Si la largeur de la fenêtre est > à 685px, répartis les 15 div sur un seul cercle.
     let fields = document.querySelectorAll(".field"),
       totalFields = fields.length,
       angleIncrement = (2 * Math.PI) / totalFields,
@@ -96,8 +45,8 @@ function distributeFields() {
   }
 }
 
-// Appeler la fonction de distribution initiale au chargement de la page.
+// Appele la fonction de distribution initiale au chargement de la page.
 window.addEventListener("load", distributeFields);
 
-// Écouter l'événement de redimensionnement de la fenêtre et mettre à jour la distribution en temps réel.
+// Écoute l'événement de redimensionnement de la fenêtre et met à jour en temps réel.
 window.addEventListener("resize", distributeFields);
