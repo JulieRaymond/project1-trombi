@@ -22,5 +22,6 @@ if (isset($_GET["name"])) {
     }
     ?>
 </head>
+<?php include "includes/php/navbar.php" ?>
 
 <body>
