@@ -5,3 +5,9 @@ body {
   width: 100vw;
   background-color: var(--color-background-pages);
 }
+
+h1 {
+  color: var(--color-font-h1);
+  font-family: var(--font-h1);
+  font-size: var(--font-size-h1);
+}
