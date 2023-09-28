@@ -1,0 +1,40 @@
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.image1 {
+    object-position: left bottom;
+    clip-path: ellipse(50% 45%);
+    height: 200px;
+    top: 300px;
+}    
+
+.image2 {
+    clip-path: ellipse(50% 45%);
+    height: 200px;
+    position:absolute;
+    top: 300px;
+}    
+
+.image3 {
+    clip-path: ellipse(50% 45%);
+    height: 200px;
+    top: 300px;
+
+}  
+
+.image4 {
+    clip-path: ellipse(50% 45%);
+    height: 200px;
+    position:absolute;
+    top: 600px;
+   
+}    
+
+.image5 {
+    clip-path: ellipse(50% 45%);
+    height: 200px;
+    top: 300px;
+}

@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/* navigation */
+nav {
+    display:flex;
+    align-items: center;
+    padding: .5rem;
+    background-color:#42354A;
+    color: #fff;
+}
+
+nav h1 {
+    font-size: 1,5rem;
+    height: 68px;
+    
+}
+
+nav h1,
+nav ul {
+    margin: 1,5;
+}
+
+nav ul {
+    
+    display: flex;
+    margin-left: auto;
+    padding: 1;
+    margin-right: 1rem;
+    list-style: none;
+    font-size: 1.25rem;
+}
+nav ul li {
+    margin: 1rem;
+}
