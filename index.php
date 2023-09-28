@@ -1,7 +1,7 @@
   <?php
   $pageTitle = "Notre promo";
   $pageName = "index";
-  include "includes/php/_header.php";
+  include "includes/php/_head.php";
   ?>
   <main>
     <!-- <h1>Trombinoscope</h1> -->
