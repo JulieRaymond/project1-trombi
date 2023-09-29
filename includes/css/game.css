@@ -1,0 +1,19 @@
+table {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+img {
+  cursor: pointer;
+  height: 6rem;
+  border-radius: 50%;
+}
