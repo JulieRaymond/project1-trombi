@@ -1,9 +1,9 @@
 <?php
 $pageTitle = "Bio";
 $pageName = "bio";
-include "includes/php/_navbar.php";
+include "_head.php";
 ?>
-<link rel="stylesheet" href="bio.css" />
+
 <main>
    
 <div class="container">
