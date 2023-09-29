@@ -18,4 +18,16 @@
   --font-size-h1: 2rem;
   --font-size-h2: 1.75rem;
   --font-size-h3: 1.5rem;
+
+  /*Points de ruptures
+  
+    576px pour les téléphones portables (portrait)
+    768px pour les tablettes
+    992px pour les ordinateurs portables
+    1200px pour les écrans de grande taille
+  */
+  --width-phone-landscape: 576px;
+  --width-tablet: 768px;
+  --width-laptop: 992px;
+  --width-screen: 1200px;
 }

@@ -1,0 +1,32 @@
+@import url(generalStyle.css);
+
+
+h2 {
+
+ text-align: center;
+}
+
+
+p {
+width: 70%;
+text-align: left;
+margin-top: 10vw;
+margin-bottom: 30vw;
+}
+
+
+form {
+
+  background-color: pink;
+ display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    color: black;
+  }
+
+  form-column {
+    
+
+
+  }
