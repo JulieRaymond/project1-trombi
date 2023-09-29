@@ -1,50 +1,43 @@
 <?php
 $pageTitle = "Contact";
 $pageName = "contact";
-<<<<<<< HEAD
+
 include "includes/php/_head.php";
-=======
-include "includes/php/_header.php";
->>>>>>> branchvirginie
+
 ?>
-<main> 
- 
+<main>
+
     <h1> Contactez-nous !</h1>
-<<<<<<< HEAD
+    <p> Prêt à rencontrer nos super-devs ? <br>
 
-=======
-    
->>>>>>> branchvirginie
-<p> Prêt à rencontrer nos super-devs ? <br>
-    
-    Remplisser le formulaire et laissez-nous coder !</p>
+        Remplisser le formulaire et laissez-nous coder !</p>
 
-          
-            <field> 
-            <form action="" method="get">
-              
-<div class="form-nom-email">
 
-        <div class="form-column"> 
-             <label>Nom et Prénom</label>
-              <input type="text>" name="nom&prénom" id="nom&prénom" size="40" placeholder="ex: WILDER Paul" autofocus required>
-        </div>
+    <field>
+        <form action="" method="get">
 
-        <div class="form-column"> 
-              <label>email</label>
-              <input type="email" placeholder="frg@gmail.com" required>
-        </div class>
+            <div class="form-nom-email">
 
-</div>
+                <div class="form-column">
+                    <label>Nom et Prénom</label>
+                    <input type="text>" name="nom&prénom" id="nom&prénom" size="40" placeholder="ex: WILDER Paul" autofocus required>
+                </div>
 
-              <label for="ameliorer">Message</label><br>
-              <textarea name="message" id="message" placeholder="Bonjour, ...." row="10" required> </textarea>
-              <input type="submit" value="envoyer">
+                <div class="form-column">
+                    <label>email</label>
+                    <input type="email" placeholder="frg@gmail.com" required>
+                </div class>
 
-              </field>
-            
-            </form>
-        </main>
-        <?php
+            </div>
+
+            <label for="ameliorer">Message</label><br>
+            <textarea name="message" id="message" placeholder="Bonjour, ...." row="10" required> </textarea>
+            <input type="submit" value="envoyer">
+
+    </field>
+
+    </form>
+</main>
+<?php
 include "includes/php/_footer.php";
 ?>
