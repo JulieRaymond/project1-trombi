@@ -2,4 +2,4 @@
 
 require_once "biowrite.php";
 
-echo $bio;
+echo $etienne->getLastName();
