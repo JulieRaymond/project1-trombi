@@ -1,0 +1,35 @@
+.container{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.container div{
+    background-color: brown;
+    padding: 5px; 
+    margin: 5px;
+}
+.photoProfile{
+    text-align: center;
+}
+.photoProfile img{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+.photoPerso{
+    text-align: center;
+}
+.photoPerso img{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.boxinfo{
+    text-align: center;
+}
+.boxBio{
+    grid-column: 1/3;
+    text-align: center;
+}
