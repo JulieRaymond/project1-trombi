@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Bio";
 $pageName = "bio";
-include "includes/php/_header.php";
+include "includes/php/_navbar.php";
 ?>
 <link rel="stylesheet" href="bio.css" />
 <main>
