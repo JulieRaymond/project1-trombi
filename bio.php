@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Bio";
 $pageName = "bio";
-include "_head.php";
+include "includes/php/_head.php";
 ?>
 
 <main>
