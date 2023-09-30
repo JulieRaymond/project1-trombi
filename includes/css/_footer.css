@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#42354A;
+    color: #fff;
+    height: 50px;
+    width: 100vw;
+}
+
+.box1 {
+    border : 2px solid rgb(235, 162, 162);
+    border-radius: 35%;
+    background-color: #BEA695;
+    margin: 1rem; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+footer img {
+    width: auto;
+    height: 30px;
+    color: #ED6C6D;
+    margin-right: 15px;
+    
+
+}
+
+.test { 
+
+    margin-top: auto;
+}
