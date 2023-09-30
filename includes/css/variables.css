@@ -2,9 +2,9 @@
   --color-background-pages: #e3d4d5;
   --color-background-button: #bea695;
   --color-background-navbar: #42354a;
-  --color-bagkground-footer: var(var(--color-background-navbar));
+  --color-bagkground-footer: var(--color-background-navbar);
   --color-logo: #ed6c6d;
-  --color-border: var(var(--color-logo));
+  --color-border: var(--color-logo);
   --color-font-h1: black;
 
   --font-h1: @import
@@ -20,7 +20,6 @@
   --font-size-h3: 1.5rem;
   --font-size-text: 1rem;
 
-  
   /*Points de ruptures
   
     576px pour les téléphones portables (portrait)
