@@ -1,0 +1,68 @@
+@import url(generalStyle.css);
+
+body {
+  min-height: 100vh;
+}
+h1 {
+ text-align: center;
+}
+
+p {
+text-align: left;
+margin-top: 10vw;
+margin-bottom: 5vw;
+justify-content: center;
+text-align: center;
+}
+
+field{
+  display : flex;
+  position: relative;
+  max-height: 100vh;
+  min-width: 100vw;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+form {
+ display: flex;   
+  flex-direction: column;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: black;
+  }
+
+label
+{padding-top: 3vw;
+
+}
+  
+input
+ {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  border: none;
+}
+
+
+
+textarea {
+  padding : 40px;
+  border-radius: 3px;
+  border: none;
+}
+
+.cta {
+  /* color: black;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 20px;*/
+  width: 35%;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+
+}
