@@ -56,7 +56,7 @@ Formulaire perso :
 - Bio personnelle: 
 Bonjour, je suis Sami, heureux papa d'une petite fille de 2 ans. Actuellement salarié dans le secteur de la logistique depuis 7 ans, j'ai pris la décision de me reconvertir dans le milieu de la TECH car c'est un métier porteur d'avenir et qui se réinvente sans cesse. 
 
-Anecdote, lâchez vous !
+
 
 
 
@@ -172,7 +172,8 @@ Formulaire perso :
  
 - Animal totem :le Panda
  
-- Bio personnelle Anecdote, lâchez vous !” Dans mon ancien métier, je me suis engueulé avec un parrain de la mafia.
+- Bio personnelle Anecdote, lâchez vous !” 
+Dans mon ancien métier, je me suis engueulé avec un parrain de la mafia.
 
 
 
@@ -194,8 +195,7 @@ Formulaire perso :
  
 - Animal totem :Hibou
  
-- Anecdote 
-
+- Bio personnelle Anecdote, lâchez vous !”
 Lorsque je travaillais avec des enfants, à deux reprises, des parents nous ont ramené à mon équipe et à moi un super gâteau. J’ai failli finir par m’étouffer car je suis allergique à la rose, deux choses impossibles : d’être allergique au sirop de rose et que deux personnes différentes fassent des gâteaux avec ce sirop.
 
 
@@ -233,6 +233,7 @@ Formulaire perso :
 - Sport ou activité préféré : escalade en falaise
  
 - Animal totem : la chèvre
+- Bio personnelle Anecdote, lâchez vous !”
 
 
 Nom prénom : PARCEILLER Mélissa
@@ -249,7 +250,8 @@ Formulaire perso :
  
 - Animal totem : Ours 🐻
  
-- Bio personnelle Anecdote : Bon je vais encore parler de mes chiens. Une fois en balade en forêt nous sommes sur un chemin assez large où nous croisons des personnes d’un certain âge marchant en groupe, bâtons en mains. Chaque groupe sert une extrémité du chemin pour ce croisement. Je remarque qu’une des petites mamies (d’un certain âge) regarde mon Akita Américain (gros chien à l’apparence d’un ours). C’est alors que nous sommes juste à son niveau, qu’elle s’exclame :”Oh mais qu’il a une belle fourrure! Il ferait une belle descente de lit !”. Moi : “😐… ”
+- Bio personnelle Anecdote : 
+Bon je vais encore parler de mes chiens. Une fois en balade en forêt nous sommes sur un chemin assez large où nous croisons des personnes d’un certain âge marchant en groupe, bâtons en mains. Chaque groupe sert une extrémité du chemin pour ce croisement. Je remarque qu’une des petites mamies (d’un certain âge) regarde mon Akita Américain (gros chien à l’apparence d’un ours). C’est alors que nous sommes juste à son niveau, qu’elle s’exclame :”Oh mais qu’il a une belle fourrure! Il ferait une belle descente de lit !”. Moi : “😐… ”
 
 
 

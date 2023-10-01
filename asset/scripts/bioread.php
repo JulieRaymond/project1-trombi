@@ -22,17 +22,25 @@ function createVariable(string $variable, string $value, mixed $fileToWrite): vo
 function writeStartOfFile($fileToWrite): void
 {
     fwrite($fileToWrite, '<?php' . PHP_EOL);
-    fwrite($fileToWrite, 'include "bioClasse.php";' . PHP_EOL);
+    fwrite($fileToWrite, 'include "classbio.php";' . PHP_EOL);
+    fwrite($fileToWrite, '$phpGroup = [];' . PHP_EOL);
 }
 
 function writeObject($fileToWrite, $firstName): void
 {
+    $firstName = trim($firstName);
     $arguments = '$lastName, $firstName, $astro, $linkedIn, $interest, $activity, $animal, $bio';
     if ($firstName === "Côme") {
         $firstName = "come";
+    } elseif ($firstName === "Mélissa") {
+        $firstName = "melissa";
+    } elseif ($firstName === "Séverine") {
+        $firstName = "severine";
     }
-    $stringToCreateObject = '$' . trim(strtolower($firstName)) . ' = new Biography(' . $arguments . ');' . PHP_EOL;
+    $firstName = strtolower($firstName);
+    $stringToCreateObject = '$' . $firstName . ' = new Biography(' . $arguments . ');' . PHP_EOL;
     fwrite($fileToWrite, $stringToCreateObject);
+    fwrite($fileToWrite, '$phpGroup["' . $firstName . '"] = $' . $firstName . ';' . PHP_EOL . PHP_EOL);
 }
 
 
@@ -56,7 +64,7 @@ function parseBios()
             if ($isBio) {
                 $bioText = trim($bioText) . '";';
 
-                fwrite($fileToWrite, '$bio = ' . nl2br($bioText) . PHP_EOL . PHP_EOL);
+                fwrite($fileToWrite, '$bio = ' . nl2br($bioText) . PHP_EOL);
 
                 writeObject($fileToWrite, $firstName);
 
@@ -74,7 +82,6 @@ function parseBios()
             createVariable('$firstName', $firstName, $fileToWrite);
         } else if (str_starts_with($line, "Astro")) {
             $array = explode(":", $line);
-            echo $array[count($array) - 1];
             fwrite($fileToWrite, '$astro = "' . trim($array[count($array) - 1]) . '";' . PHP_EOL);
         } else if (str_starts_with($line, "url")) {
             $array = explode(":", $line);
