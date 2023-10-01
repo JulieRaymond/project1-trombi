@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Notre promo";
+$pageTitle = "Let's play !";
 $pageName = "game";
 include "includes/php/_head.php"; ?>
 
@@ -9,45 +9,45 @@ include "includes/php/_head.php"; ?>
     <h2>Matchez les Happy Devs 🚀</h2>
     <table id="tapis">
         <tr>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
         </tr>
         <tr>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
         </tr>
         <tr>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
         </tr>
         </tr>
         <tr>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
         </tr>
         <tr>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
-            <td><img src="/asset/images/hiddenface.jpg" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
+            <td><img src="/asset/logos/logoP.png" /></td>
         </tr>
     </table>
 </main>

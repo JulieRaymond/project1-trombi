@@ -1,26 +1,26 @@
   <?php
-  $pageTitle = "Notre promo";
+  $pageTitle = "Trombinoscope PHP 09-2023";
   $pageName = "index";
   include "includes/php/_head.php";
   ?>
   <main>
     <div id="container">
       <h1>Trombinoscope</h1>
-      <div class="field desktop"><a href=""><img src="/asset/images/julie.jpg" alt="Personne1" /></a></div>
-      <div class="field desktop"><a href=""><img src="/asset/images/julie.jpg" alt="Personne2" /></a></div>
-      <div class="field desktop"><a href=""><img src="/asset/images/julie.jpg" alt="Personne3" /></a></div>
-      <div class="field desktop"><a href=""><img src="/asset/images/julie.jpg" alt="Personne4" /></a></div>
-      <div class="field desktop"><a href=""><img src="/asset/images/julie.jpg" alt="Personne5" /></a></div>
-      <div class="field desktop"><a href=""><img src="/asset/images/julie.jpg" alt="Personne6" /></a></div>
-      <div class="field desktop"><a href=""><img src="/asset/images/julie.jpg" alt="Personne7" /></a></div>
-      <div class="field desktop"><a href=""><img src="/asset/images/julie.jpg" alt="Personne8" /></a></div>
-      <div class="field desktop"><a href=""><img src="/asset/images/julie.jpg" alt="Personne9" /></a></div>
-      <div class="field desktop"><a href=""><img src="/asset/images/julie.jpg" alt="Personne10" /></a></div>
-      <div class="field mobil"><a href=""><img src="/asset/images/julie.jpg" alt="Personne11" /></a></div>
-      <div class="field mobil"><a href=""><img src="/asset/images/julie.jpg" alt="Personne12" /></a></div>
-      <div class="field mobil"><a href=""><img src="/asset/images/julie.jpg" alt="Personne13" /></a></div>
-      <div class="field mobil"><a href=""><img src="/asset/images/julie.jpg" alt="Personne14" /></a></div>
-      <div class="field mobil"><a href=""><img src="/asset/images/julie.jpg" alt="Personne15" /></a></div>
+      <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/adeline1024.jpg" alt="adeline" /></a></div>
+      <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/come1024.jpg" alt="come" /></a></div>
+      <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/etienne1024.jpg" alt="etienne" /></a></div>
+      <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/johann1024.jpg" alt="johann" /></a></div>
+      <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/jonathan1024.jpg" alt="jonathan" /></a></div>
+      <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/julie1024.jpg" alt="julie" /></a></div>
+      <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/marion1024.jpg" alt="marion" /></a></div>
+      <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/martha1024.jpg" alt="martha" /></a></div>
+      <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/melissa1024.jpg" alt="melissa" /></a></div>
+      <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/nicolas1024.jpg" alt="nicolas" /></a></div>
+      <div class="field mobil"><a href=""><img src="/asset/images/crop/images1024/sami1024.jpg" alt="sami" /></a></div>
+      <div class="field mobil"><a href=""><img src="/asset/images/crop/images1024/severine1024.jpg" alt="severine" /></a></div>
+      <div class="field mobil"><a href=""><img src="/asset/images/crop/images1024/victoria1024.jpg" alt="victoria" /></a></div>
+      <div class="field mobil"><a href=""><img src="/asset/images/crop/images1024/virginie1024.jpg" alt="virginie" /></a></div>
+      <div class="field mobil"><a href=""><img src="/asset/images/crop/images1024/julien1024.jpg" alt="julien" /></a></div>
     </div>
   </main>
   <?php
