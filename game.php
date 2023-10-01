@@ -32,7 +32,6 @@ include "includes/php/_head.php"; ?>
             <td><img src="/asset/logos/logoP.png" /></td>
             <td><img src="/asset/logos/logoP.png" /></td>
         </tr>
-        </tr>
         <tr>
             <td><img src="/asset/logos/logoP.png" /></td>
             <td><img src="/asset/logos/logoP.png" /></td>
