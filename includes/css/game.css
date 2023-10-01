@@ -2,6 +2,8 @@ body {
   padding-top: 0;
   padding-left: 0;
   margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 table {
@@ -21,17 +23,30 @@ h2 {
 img {
   cursor: pointer;
   height: 6rem;
+  width: 6rem;
   border-radius: 50%;
 }
-
 @media (max-width: 685px) {
   table {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    text-align: center;
+  }
+
+  tr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  td {
+    flex-grow: 1; /* Force toutes les cellules à occuper tout l'espace disponible */
+    flex-basis: calc(
+      33.33% - 10px
+    ); /* Chaque cellule contient une image sur les écrans < 685px */
+    margin-bottom: 3px; /*Espace entre les lignes de cellules*/
   }
 
   img {
     height: 4rem;
+    width: 4rem;
   }
 }

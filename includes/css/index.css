@@ -29,9 +29,9 @@ h1 {
 }
 
 .field {
-  width: 110px; /* Ajuste la largeur */
-  height: 110px; /* Ajuste la hauteur  */
-  margin: 10px; /* Espace entre les éléments .field */
+  width: 100px; /* Ajuste la largeur */
+  height: 100px; /* Ajuste la hauteur  */
+  margin: 20px; /* Espace entre les éléments .field */
   overflow: hidden;
   border-radius: 50%;
   position: absolute;
@@ -39,8 +39,8 @@ h1 {
 
 @media screen and (max-width: 685px) {
   .field {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
   }
 }
 
