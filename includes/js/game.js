@@ -1,6 +1,6 @@
 let motifsCartes = [
-  1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 12, 13, 14,
-  15,
+  1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12,
+  13, 13, 14, 14, 15, 15,
 ];
 let etatsCartes = [
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -19,11 +19,11 @@ initialiseJeu();
 function majAffichage(noCarte) {
   switch (etatsCartes[noCarte]) {
     case 0:
-      imgCartes[noCarte].src = "/asset/images/hiddenface.jpg";
+      imgCartes[noCarte].src = "/asset/logos/logoP.png";
       break;
     case 1:
       imgCartes[noCarte].src =
-        "/asset/images/carte" + motifsCartes[noCarte] + ".jpg";
+        "/asset/images/crop/cartes/carte" + motifsCartes[noCarte] + ".jpg";
       break;
     case -1:
       imgCartes[noCarte].style.visibility = "hidden";

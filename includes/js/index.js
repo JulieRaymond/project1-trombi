@@ -1,6 +1,6 @@
 function distributeFields() {
   let windowWidth = window.innerWidth;
-  let radius = 280;
+  let radius = 275;
 
   if (windowWidth < 685) {
     // Si la largeur de la fenêtre < à 685px, répartis les 15 div en 2 cercles.
