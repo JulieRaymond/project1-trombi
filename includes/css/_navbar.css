@@ -1,45 +1,83 @@
-body {
-    margin: 0;
-    line-height: 1.5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-
-/* navigation */
 nav {
-    display:flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between; 
     align-items: center;
-    padding: 0,2rem;
+    border-radius: 10%;
     background-color:#42354A;
-    color: #fff;
-    height: 50px;
+}
+ 
+nav .main_pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 300px;
+  
 }
 
-nav h1 {
-    font-size: 0,5rem;
+nav .main_pages a {
+   height: 20%;
+   display: flex;
+   justify-content: space-around;
+   text-decoration: none;
+   background-color: #BEA695;
+   border: 2px solid rgb(235, 162, 162);
+   border-radius: 40%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: beige;
+
 }
 
-nav h1,
-nav ul {
-    margin: 0,5;
 
-}
-nav h1 img{
-    width: 100px;
-    height: 100px;
-}
-nav ul {
-    display: flex ;
-    margin-left: auto;
-    margin-right: 1rem;
-    list-style: none;
-    font-size: 1.25rem;
+
+label, #toggle
+{
+    display: none;
     
     
+    
 }
-ul li{
-    border : 2px solid rgb(235, 162, 162);
-    border-radius: 35%;
-    background-color: #BEA695;
-    margin: 1rem;   
-}
+ 
+@media all and (max-width: 768px)
+{
+    nav {
+        height: 60px;
+    }
+    nav .main_pages 
+    { 
+        display: none;
+        float: right;
+        flex-direction: column;
+        height: 120px;
+        padding: 4px 8px;
+        
+    }    
+
+    nav .main_pages a {
+        height: 30%;
+        width: 70%;
+        align-items: top;
+
+     }
+     
+     label 
+        {
+            width: 10px;
+            display: flex;
+            float: right;
+            font-size: 35px;
+            color: rgb(205, 118, 118);
+            cursor:pointer;
+        }
+       #toggle:checked + .main_pages{
+            display: flex; 
+       }
+    }
+
+    nav img {
+        margin: 0;
+        padding: 0;
+        height: 58px;
+        width: auto;
+        border-radius: 25%;
+    }

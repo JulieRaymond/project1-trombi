@@ -1,13 +1,14 @@
 <?php
 ?>
-    <nav>
-        <h1 id="logo"><img src="asset/logos/logo-php.svg"></h1>
-        
-    <ul> 
-        <li><a href="#A propos de nous"></a>A propos de nous</li>
-        <li><a href="#Photo de groupe"></a>Photo de groupe</li>
-        <li><a href="#Contact"></a>Contact</li>
-    </ul>
-</nav>
-
+  <nav>
+        <img src="logo-php.svg" id="logo" />
+        <label for="toggle">☰</label>
+        <input type="checkbox" id="toggle">
+        <div class="main_pages">
+            <a href="#">A propos de nous</a>
+            <a href="#">Groupe PHP</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+  
     
