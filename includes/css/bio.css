@@ -1,11 +1,11 @@
 .container{
-    background-color: blueviolet;
+    background-color:--color-background-pages;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr;
 }
 .container div{
-    background-color: brown;
+    background-color: --color-background-button;
     padding: 5px; 
     margin: 5px;
 }
