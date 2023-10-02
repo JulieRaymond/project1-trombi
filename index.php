@@ -6,7 +6,7 @@
   <main>
     <div id="container">
       <h1>Trombinoscope</h1>
-      <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/adeline1024.jpg" alt="adeline" /></a></div>
+      <div class="field desktop"><a href="bio.php"><img src="/asset/images/crop/images1024/adeline1024.jpg" alt="adeline" /></a></div>
       <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/come1024.jpg" alt="come" /></a></div>
       <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/etienne1024.jpg" alt="etienne" /></a></div>
       <div class="field desktop"><a href=""><img src="/asset/images/crop/images1024/johann1024.jpg" alt="johann" /></a></div>
