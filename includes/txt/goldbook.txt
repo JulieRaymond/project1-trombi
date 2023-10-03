@@ -25,3 +25,8 @@ Message :
 &amp;lt;script&amp;gt;console.log(666)&amp;lt;/script&amp;gt;
 &amp;lt;?= echo &amp;quot;plop&amp;quot;&amp;gt;
 *******************************
+Nom : Nico
+Mail : blabla@gmail.com
+Message :
+encore un message
+*******************************
