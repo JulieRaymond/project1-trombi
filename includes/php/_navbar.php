@@ -5,8 +5,8 @@
     <label for="toggle">☰</label>
     <input type="checkbox" id="toggle">
     <div class="main_pages">
-        <a href="#">A propos de nous</a>
-        <a href="#">Groupe PHP</a>
-        <a href="#">Contact</a>
+        <a href="aboutus.php">A propos de nous</a>
+        <a href="group.php">Groupe PHP</a>
+        <a href="contact.php">Contact</a>
     </div>
 </nav>

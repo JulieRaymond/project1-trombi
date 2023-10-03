@@ -1,8 +1,8 @@
 @import url(variables.css);
 
 body {
-  height: 100vh;
-  width: 100vw;
+  /* height: 100vh;
+  width: 100vw; */
   background-color: var(--color-background-pages);
 }
 

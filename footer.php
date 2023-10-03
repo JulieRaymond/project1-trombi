@@ -7,7 +7,9 @@
         <div class="box1"> crédits </div>
         
         <div class= "box2"> 
-        <img src="asset/logos/pi-symbol.svg" alt="image du Signe Pi algèbre">
+       
+        <a target="_blank" href="game.php"> 
+        <img src="asset/logos/pi-symbol.svg" alt="image du Signe Pi algèbre"> </a>
         </div>
        
     

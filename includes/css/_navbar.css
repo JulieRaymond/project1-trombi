@@ -16,16 +16,19 @@ nav .main_pages {
 }
 
 nav .main_pages a {
-  height: 20%;
-  display: flex;
-  justify-content: space-around;
-  text-decoration: none;
-  background-color: #bea695;
-  border: 2px solid rgb(235, 162, 162);
-  border-radius: 40%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: beige;
+   height: 20%;
+   display: flex;
+   justify-content: space-around;
+   text-decoration: none;
+   background-color: #42354A;
+   border: 2px solid rgb(235, 162, 162);
+   border-radius: 19%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: beige;
+
 }
+
+
 
 label,
 #toggle {
@@ -44,29 +47,31 @@ label,
     padding: 4px 8px;
   }
 
-  nav .main_pages a {
-    height: 30%;
-    width: 70%;
-    align-items: top;
-  }
+    nav .main_pages a {
+        height: 30%;
+        width: 70%;
+        align-items: center;
 
-  label {
-    width: 10px;
-    display: flex;
-    float: right;
-    font-size: 35px;
-    color: rgb(205, 118, 118);
-    cursor: pointer;
-  }
-  #toggle:checked + .main_pages {
-    display: flex;
-  }
-}
+     }
+     
+     label 
+        {
+            padding: 7px;
+            display: flex;
+            float: right;
+            font-size: 35px;
+            color: rgb(205, 118, 118);
+            cursor:pointer;
+        }
+       #toggle:checked + .main_pages{
+            display: flex; 
+       }
+    }
 
-nav img {
-  margin-left: 0;
-  padding: 0;
-  height: 2.5rem;
-  width: auto;
-  border-radius: 10%; /*corrigé*/
-}
+    nav img {
+        margin: 0;
+        padding: 0;
+        height: 58px;
+        width: auto;
+        border-radius: 25%;
+    }

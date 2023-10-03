@@ -17,6 +17,7 @@ if (isset($_GET["name"])) {
     <title><?= $pageTitle ?></title>
     <link rel="stylesheet" href="../includes/css/generalStyle.css">
     <link rel="stylesheet" href="../includes/css/_navbar.css">
+    <link rel="stylesheet" href="../includes/css/_footer.css">
     <?php
     if (isset($pageName)) {
         echo '<link rel="stylesheet" href="../includes/css/' . $pageName . '.css">';
