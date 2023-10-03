@@ -20,9 +20,9 @@ nav .main_pages a {
    display: flex;
    justify-content: space-around;
    text-decoration: none;
-   background-color: #BEA695;
+   background-color: #42354A;
    border: 2px solid rgb(235, 162, 162);
-   border-radius: 40%;
+   border-radius: 19%;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    color: beige;
 
@@ -56,13 +56,13 @@ label, #toggle
     nav .main_pages a {
         height: 30%;
         width: 70%;
-        align-items: top;
+        align-items: center;
 
      }
      
      label 
         {
-            width: 10px;
+            padding: 7px;
             display: flex;
             float: right;
             font-size: 35px;
