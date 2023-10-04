@@ -7,7 +7,7 @@
   <main>
     <?php
 
-    var_dump($phpGroup);
+    //var_dump($phpGroup);
     ?>
     <div id="container">
       <h1>Trombinoscope</h1>

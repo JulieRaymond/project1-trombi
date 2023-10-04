@@ -26,12 +26,13 @@ nav .main_pages a {
   color: beige;
 }
 
-label,
+#label_for_menu,
 #toggle {
   display: none;
 }
 
 @media all and (max-width: 768px) {
+  /*@media all and (width > 768px)*/
   nav {
     height: 60px;
   }
@@ -49,7 +50,7 @@ label,
     align-items: center;
   }
 
-  label {
+  #label_for_menu {
     padding: 7px;
     display: flex;
     float: right;
@@ -67,5 +68,5 @@ nav img {
   padding: 0;
   height: 58px;
   width: auto;
-  border-radius: 25%;
+  /* border-radius: 25%; */
 }

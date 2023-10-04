@@ -1,31 +1,31 @@
-body {
-  padding-top: 0;
-  padding-left: 0;
-  margin: 0;
-}
-
 h1 {
   display: grid;
   align-content: center;
   justify-content: center;
+
+  position: absolute;
+  top: 10px; /* Ajuste la valeur en fonction de la mise en page */
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-@media screen and (max-width: 685px) {
+@media screen and (width> 685px) {
   h1 {
-    position: absolute;
-    top: 10px; /* Ajuste la valeur en fonction de la mise en page */
-    left: 50%;
-    transform: translateX(-50%);
+    position: initial;
+    top: initial; /* Ajuste la valeur en fonction de la mise en page */
+    left: initial;
+    transform: initial;
   }
 }
 
 #container {
   min-width: 100%;
-  min-height: 100vh; /* occupe la hauteur totale de l'écran */
+  height: 87vh; /* occupe la hauteur totale de l'écran */
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: red;
 }
 
 .field {
