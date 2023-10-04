@@ -25,13 +25,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
 }
 
 .field {
-  width: 100px; /* Ajuste la largeur */
-  height: 100px; /* Ajuste la hauteur  */
-  margin: 20px; /* Espace entre les éléments .field */
+  width: 90px; /* Ajuste la largeur */
+  height: 90px; /* Ajuste la hauteur  */
+  margin: 10px; /* Espace entre les éléments .field */
   overflow: hidden;
   border-radius: 50%;
   position: absolute;
