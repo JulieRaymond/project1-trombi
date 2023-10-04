@@ -1,40 +1,53 @@
-.images{
+
+    
+body{
+    background-color: #e3d4d5;
+}
+/*.container{
+    width: 40vw;
+    height: 40vw;
+    clip-path: ellipse(50% 50%);
+}*/
+.photo1{
     display: flex;
-    justify-content: space-around;
-}
-
-
-.image1 {
-    object-position: left bottom;
-    clip-path: ellipse(50% 45%);
-    height: 200px;
-    top: 300px;
-}    
-
-.image2 {
-    clip-path: ellipse(50% 45%);
-    height: 200px;
-    position:absolute;
-    top: 300px;
-}    
-
-.image3 {
-    clip-path: ellipse(50% 45%);
-    height: 200px;
-    top: 300px;
-
-}  
-
-.image4 {
-    clip-path: ellipse(50% 45%);
-    height: 200px;
-    position:absolute;
-    top: 600px;
    
-}    
+    width: 40vw;
+    height: 40vw;
+    clip-path: ellipse(50% 50%);
 
-.image5 {
-    clip-path: ellipse(50% 45%);
-    height: 200px;
-    top: 300px;
 }
+.photo2{
+    display: flex;
+    align-content: center;
+     width: 40vw;
+     height: 40vw;
+     clip-path: ellipse(50% 50%);
+ }
+ .photo3{
+     display: flex;
+     width: 40vw;
+     height: 40vw;
+     clip-path: ellipse(50% 50%);
+ }
+
+ .photo4{
+    display: flex;
+     width: 40vw;
+     height: 40vw;
+     clip-path: ellipse(50% 50%);
+ }
+
+ .photo5{
+    display: flex;
+     width: 40vw;
+     height: 40vw;
+     clip-path: ellipse(50% 50%);
+ }
+
+.p{
+    size: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+} 
+ 
+     
