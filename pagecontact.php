@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Contact";
-$pageName = "contact";
+$pageName = "pagecontact";
 
 include "includes/php/_head.php";
 
