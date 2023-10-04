@@ -4,6 +4,11 @@ body {
   /* height: 100vh;
   width: 100vw; */
   background-color: var(--color-background-pages);
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin: 2rem 5vw;
 }
 
 h1 {
@@ -11,3 +16,28 @@ h1 {
   font-family: var(--font-h1);
   font-size: var(--font-size-h1);
 }
+@media screen and (width > 576) {
+  body {
+    margin: 10vw;
+  }
+}
+@media screen and (width > 768) {
+  body {
+    margin: 20vw;
+  }
+}
+@media screen and (width > 992) {
+  body {
+    margin: 30vw;
+  }
+}
+@media screen and (width > 1200) {
+  body {
+    margin: 30vw;
+  }
+}
+/* 
+576px;
+  --width-tablet: 768px;
+  --width-laptop: 992px;
+  --width-screen: 1200px; */

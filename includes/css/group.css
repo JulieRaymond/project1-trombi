@@ -1,4 +1,10 @@
 @import url(generalStyle.css);
-img {
+main {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+main > img {
   border-radius: 33%;
+  width: 100%;
 }

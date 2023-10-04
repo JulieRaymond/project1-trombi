@@ -13,6 +13,7 @@ class Biography
     private string $page;
     private string $image; //a faire après avoir recadrer les images
     private string $srcset; // a faire après avoir redimmensionner une image
+    private string $sizes;
 
     const IMAGES_WIDTHS = [100, 256, 512, 1024];
 
@@ -30,6 +31,7 @@ class Biography
         $this->page = $this->createPage();
         $this->image = $this->createImage();
         $this->srcset = $this->createScrset();
+        $this->setSizes();
     }
 
     private function createPage(): string
@@ -54,13 +56,27 @@ class Biography
     private function createScrset(): string
     {
 
-        $srcset = 'asset/images/' . $this->page . '.jpg ' . PHP_EOL;
+        $srcset = 'asset/images/' . $this->page . '.jpg 2024w,';
         foreach (Biography::IMAGES_WIDTHS as $width) {
             $srcset .= 'asset/images/crop/images' . $width . '/' . $this->page . $width . '.jpg ' . $width . 'w,';
         }
         $srcset =  substr($srcset, 0, -1) . PHP_EOL;
         $srcset = str_replace(",", "," . PHP_EOL, $srcset);
         return $srcset;
+    }
+
+    private function createSizes(): string
+    {
+        $sizes = "";
+        foreach (Biography::IMAGES_WIDTHS as $width) {
+            $sizes .= '(max-width: ' . intval($width * 1.1) . 'px) ' . $width . 'px,' . PHP_EOL;
+        }
+        return $sizes . '2048px';
+    }
+
+    private function setSizes()
+    {
+        $this->sizes = $this->createSizes();
     }
 
     public function getLastName(): string
@@ -113,5 +129,14 @@ class Biography
     public function getSrcset(): string
     {
         return $this->srcset;
+    }
+    public function getSizes(): string
+    {
+        return $this->sizes;
+    }
+    public function getSrcAndSizes(): string
+    {
+        $s = 'srcset="' . substr($this->srcset, 0, -2) . PHP_EOL . '"sizes="' . $this->sizes . '"' . PHP_EOL;
+        return $s;
     }
 }

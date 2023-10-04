@@ -152,3 +152,4 @@ En 2022, je me suis mis à python.<br />
 Avant d’entrer à la wild, je m'amusais sur codingame avec python pour améliorer mes connaissances en algo et je me remettais doucement au php (qui est limite chiant après python, je dois l'avouer, ou alors j'ai trop pris l'habitude du serpent) et à js.";
 $nicolas = new Biography($lastName, $firstName, $astro, $linkedIn, $interest, $activity, $animal, $bio);
 $phpGroup["nicolas"] = $nicolas;
+
