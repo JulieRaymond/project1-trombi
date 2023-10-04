@@ -30,10 +30,17 @@ function majAffichage(noCarte) {
       break;
   }
 }
+// function rejouer() {
+//   alert("Bravo !");
+//   location.reload();
+// }
+
 function rejouer() {
-  alert("Bravo !");
-  location.reload();
+  let messageElement = document.getElementById("message");
+  messageElement.textContent = "Bravo !"; // Message que vous souhaitez afficher
+  messageElement.style.display = "block"; // Afficher le message
 }
+
 function initialiseJeu() {
   for (let position = motifsCartes.length - 1; position >= 1; position--) {
     let hasard = Math.floor(Math.random() * (position + 1));
