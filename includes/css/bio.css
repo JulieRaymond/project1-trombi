@@ -4,31 +4,39 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
 .container div{
     background-color: --color-background-button;
     padding: 5px; 
     margin: 5px;
 }
+
 .photoProfile{
     text-align: center;
 }
+
 .photoProfile img{
     width: 175px;
     height: 175px;
     border-radius: 50%;
+    box-shadow: .5rem .5rem 1rem black;
 }
+
 .photoPerso{
     text-align: center;
 }
+
 .photoPerso img{
     width: 175px;
     height: 175px;
     border-radius: 50%;
+    box-shadow: .5rem .5rem 1rem black;
 }
 
 .boxinfo{
     text-align: center;
 }
+
 .boxBio{
     grid-column: 1/3;
     text-align: center;
