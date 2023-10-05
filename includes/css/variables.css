@@ -1,3 +1,7 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Roboto&display=swap’);
+@import url(‘https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap’);
+@import url(‘https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap’);
+
 :root {
   --color-background-pages: #e3d4d5;
   --color-background-button: #bea695;
@@ -7,13 +11,10 @@
   --color-border: var(--color-logo);
   --color-font-h1: black;
 
-  --font-h1: @import
-    url(‘https://fonts.googleapis.com/css2?family=Roboto&display=swap’);
-  --font-h2: @import
-    url(‘https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap’);
+  --font-h1: "Roboto", serif;
+  --font-h2: "Maitree", serif;
   --font-h3: var(--font-h2);
-  --font-text: @import
-    url(‘https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap’);
+  --font-text: "Hind Siliguri", sans-serif;
 
   --font-size-h1: 2rem;
   --font-size-h2: 1.75rem;
