@@ -153,3 +153,24 @@ Avant d’entrer à la wild, je m'amusais sur codingame avec python pour amélio
 $nicolas = new Biography($lastName, $firstName, $astro, $linkedIn, $interest, $activity, $animal, $bio);
 $phpGroup["nicolas"] = $nicolas;
 
+$lastName = "Buchhold";
+$firstName = "Etienne";
+$astro = "vierge";
+$linkedIn = "https://www.linkedin.com/in/etienne-buchhold-908283281/";
+$interest = "Océan/Naviguer/Faire la teuf !,jeux en tout genre(société,vidéos.)";
+$activity = "Kite-surf";
+$animal = "Le thon";
+$bio = "Mon tout premier embarquement en tant que professionnel à bord d’un gros navire de pêche je partais pour pour 3 semaines. Entre le mal de mer et l’équipage atroce avec lequel j’étais j’ai failli, au bout de trois jours, quitter le bateau en sautant par dessus bord avec un gilet de sauvetage et une balise de détresse en espérant qu' un autre navire me trouve. Heureusement pour moi je ne l’ai pas fait car en mer du Nord il fait très froid. ça aurait été la plus grosse erreur de ma vie !";
+$etienne = new Biography($lastName, $firstName, $astro, $linkedIn, $interest, $activity, $animal, $bio);
+$phpGroup["plop"] = $etienne;
+
+$lastName = "AHAMADI";
+$firstName = "SAMI";
+$astro = "BALANCE";
+$linkedIn = "https://www.linkedin.com/in/sami-ahamadi-084401261/";
+$interest = "LA MUSIQUE!";
+$activity = "LE FOOTBALL!";
+$animal = "L’AIGLE, POUR LA LIBERTÉ!";
+$bio = "Bonjour, je suis Sami, heureux papa d'une petite fille de 2 ans. Actuellement salarié dans le secteur de la logistique depuis 7 ans, j'ai pris la décision de me reconvertir dans le milieu de la TECH car c'est un métier porteur d'avenir et qui se réinvente sans cesse.";
+$sami = new Biography($lastName, $firstName, $astro, $linkedIn, $interest, $activity, $animal, $bio);
+$phpGroup["plic"] = $sami;
