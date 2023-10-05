@@ -300,3 +300,45 @@ Milieu des années 2010, je m'amuse un peu avec le C, rien de notable de créé 
 Début 2021, je passe coordonnateur au boulot (le côté gestion d'équipe) et je crée une appli de suivi de la production en temps réel, php, sql... Pas accepté par la boîte car ils ont déjà un erp, que le patron préfère externaliser toute l'informatique et qu'avoir plusieurs logiciels ça les em***. (rien de folichon niveau visuel, je me suis adapté aux autres ouvriers et ai fait un truc purement fonctionnel.) Dans la foulée, je me suis penché sur js et la programmation objet.
 En 2022, je me suis mis à python.
 Avant d’entrer à la wild, je m'amusais sur codingame avec python pour améliorer mes connaissances en algo et je me remettais doucement au php (qui est limite chiant après python, je dois l'avouer, ou alors j'ai trop pris l'habitude du serpent) et à js.
+
+
+
+
+
+Nom prénom : Sarazin Côme
+ ge : 26 ans 
+Date de naissance : 17/03/1997
+Astro : Poisson 
+ville d'origine : Annecy
+url linkedin : www.linkedin.com/in/côme-sarazin-660380255 
+
+Formulaire perso :
+- Centre d'intérêt préféré : Photographie 
+
+- Sport ou activité préféré : Cyclisme et ski
+ 
+- Animal totem : chien 
+ 
+- Bio personnelle Anecdote, lâchez vous ! 
+
+
+
+
+Nom prénom : Vanleene Séverine
+ ge : 49 
+Date de naissance : 19/04/1974
+Astro : Bélier assurément 
+ville d'origine : LIlle 
+url linkedin : https://www.linkedin.com/in/s%C3%A9verine-vanleene-valette/
+
+Formulaire perso :
+- Centre d'intérêt préféré : raids sportif au moins une fois par an en binôme mixte et non mixte , raid défi d’elles (island, Laponie, Olerons, les Embiez ) , raid trekking gazelles , raid rallye roses des andes 
+
+- Sport ou activité préféré : Hockey, Yoga, Golf, promenade chien chien 
+ 
+- Animal totem : j’en ai pas 
+ 
+- Bio personnelle Anecdote, lâchez vous !> 
+Multirécidiviste de la reconversion pro !  
+
+

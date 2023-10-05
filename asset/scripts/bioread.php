@@ -28,6 +28,7 @@ function writeStartOfFile($fileToWrite): void
 
 function writeObject($fileToWrite, $firstName): void
 {
+
     $firstName = trim($firstName);
     $arguments = '$lastName, $firstName, $astro, $linkedIn, $interest, $activity, $animal, $bio';
     if ($firstName === "Côme") {
@@ -35,6 +36,7 @@ function writeObject($fileToWrite, $firstName): void
     } elseif ($firstName === "Mélissa") {
         $firstName = "melissa";
     } elseif ($firstName === "Séverine") {
+
         $firstName = "severine";
     }
     $firstName = strtolower($firstName);
@@ -73,7 +75,9 @@ function parseBios()
                 $isBio = false;
                 $bioText = '"';
             }
+
             $array = explode(" ", $line);
+
             $firstName = $array[count($array) - 1];
             //$firstName = trim($array[count($array) - 1]);
             createVariable('$lastName', $array[count($array) - 2], $fileToWrite);

@@ -152,3 +152,25 @@ En 2022, je me suis mis à python.<br />
 Avant d’entrer à la wild, je m'amusais sur codingame avec python pour améliorer mes connaissances en algo et je me remettais doucement au php (qui est limite chiant après python, je dois l'avouer, ou alors j'ai trop pris l'habitude du serpent) et à js.";
 $nicolas = new Biography($lastName, $firstName, $astro, $linkedIn, $interest, $activity, $animal, $bio);
 $phpGroup["nicolas"] = $nicolas;
+
+$lastName = "Sarazin";
+$firstName = "Côme";
+$astro = "Poisson";
+$linkedIn = "https:www.linkedin.com/in/côme-sarazin-660380255";
+$interest = "Photographie";
+$activity = "Cyclisme et ski";
+$animal = "chien";
+$bio = "";
+$come = new Biography($lastName, $firstName, $astro, $linkedIn, $interest, $activity, $animal, $bio);
+$phpGroup["come"] = $come;
+
+$lastName = "Vanleene";
+$firstName = "Séverine";
+$astro = "Bélier assurément";
+$linkedIn = "https://www.linkedin.com/in/s%C3%A9verine-vanleene-valette/";
+$interest = "raids sportif au moins une fois par an en binôme mixte et non mixte , raid défi d’elles (island, Laponie, Olerons, les Embiez ) , raid trekking gazelles , raid rallye roses des andes";
+$activity = "Hockey, Yoga, Golf, promenade chien chien";
+$animal = "j’en ai pas";
+$bio = "Multirécidiviste de la reconversion pro !";
+$severine = new Biography($lastName, $firstName, $astro, $linkedIn, $interest, $activity, $animal, $bio);
+$phpGroup["severine"] = $severine;
