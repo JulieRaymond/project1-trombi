@@ -16,7 +16,7 @@ include "includes/php/_head.php";
 
 
     <field>
-        <form action="" method="get">
+        <form action="goldbook.php" method="post">
 
 
             <label>Nom et Prénom</label>
@@ -33,7 +33,7 @@ include "includes/php/_head.php";
 
             <textarea name="message" id="message" placeholder="Bonjour, ...." row="10" required> </textarea>
             <br> <br>
-            <input type="submit" value="envoyer" class="cta">
+            <input type="submit" value="Envoyer" class="cta">
 
 
         </form>
