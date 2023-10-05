@@ -6,21 +6,21 @@ include "includes/php/_head.php";
 
 <main>
 
-    <div class="indexcontainer" id="contenair">
+    <div class="container credit-div" id="contenair">
         <div class="credits">
             <h1>Page Crédits</h1>
         </div>
-        <div class="logo credit-div">
+        <div class="logo">
             <h2>Logo</h2>
             <p>Le logo a été créé par notre talentueuse équipe de développeurs étudiants à la Wild Code School pour représenter notre promo de 15 élèves. Tous les droits d'auteur du logo sont réservés et protégés.</p>
             <img class="imgLogo" src="/asset/logos/logo-php.svg" alt="logo php" style="width:50%;">
         </div>
 
-        <div class="credits-text credit-div">
+        <div class="credits-text">
             <h2>Crédits Texte</h2>
             <p>Tous les textes présents sur ce site ont été rédigés par notre équipe de développeurs étudiants de la Wild Code School Bordeaux. Les droits d'auteur des textes sont réservés et protégés.</p>
         </div>
-        <div class="picturesRights credit-div">
+        <div class="picturesRights">
             <h3>Droits d'auteur</h3>
             <p>Les photographies, textes, slogans, dessins, images, vidéos, séquences animées sonores ou non, ainsi que toutes œuvres intégrées dans le site, sont la propriété de Shaayan Production ou de tiers ayant autorisé Shaayan Production à les utiliser.</p>
 
@@ -28,7 +28,7 @@ include "includes/php/_head.php";
 
             <p>A l’exception des dispositions ci-dessus, toute reproduction, représentation, utilisation ou modification, par quelque procédé que ce soit et sur quelque support que ce soit, de tout ou partie du site, de tout ou partie des différentes œuvres qui le composent, sans avoir obtenu l’autorisation préalable de Shaayan Production, est strictement interdite et constitue un délit de contrefaçon et peut donner suite à des poursuites judiciaires civiles et/ou pénales et au paiement de dommages et intérêts.</p>
         </div>
-        <div class="rgpd credit-div">
+        <div class="rgpd">
             <h3>Protection des données personnelles</h3>
             <p>Conformément à la loi française du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, modifiée par la loi relative à la protection des personnes physiques à l’égard des traitements de données à caractère personnel du 6 août 2004, vous disposez d’un droit d’accès, de modification, de rectification et de suppression des données qui vous concernent, en vous adressant à la SPASM soit par courrier (adresse figurant ci-dessus), soit par e-mail.</p>
         </div>
