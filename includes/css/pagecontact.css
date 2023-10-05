@@ -6,6 +6,11 @@ body {
 h1 {
  text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  h1{
+    margin-bottom: 0vw;
+  }
+}
 
 p {
 text-align: left;
@@ -13,6 +18,14 @@ margin-top: 10vw;
 margin-bottom: 5vw;
 justify-content: center;
 text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  p {
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+    font-size: 25px;
+  } 
 }
 
 field{
@@ -33,11 +46,25 @@ form {
     color: black;
   }
 
+  @media screen and (min-width: 1200px) {
+    form {
+    margin-top: 0;
+    } 
+  }
+
 label
 {padding-top: 3vw;
+font-size: 25px;
+color: rgb(205, 118, 118);
 
 }
-  
+
+@media screen and (min-width: 1200px) {
+  label {
+    font-size: 35px; 
+  }
+}
+
 input
  {
   padding-top: 5px;
@@ -63,6 +90,7 @@ textarea {
   margin: auto;
   padding-top: 5px;
   padding-bottom: 5px;
+  border-radius: 3px;
 
 
 }
