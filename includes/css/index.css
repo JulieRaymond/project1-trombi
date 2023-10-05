@@ -28,18 +28,18 @@ h1 {
 }
 
 .field {
-  width: 90px; /* Ajuste la largeur */
-  height: 90px; /* Ajuste la hauteur  */
-  margin: 10px; /* Espace entre les éléments .field */
-  overflow: hidden;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   position: absolute;
+  overflow: hidden;
+  margin: 8px;
 }
 
-@media screen and (max-width: 685px) {
+@media screen and (width > 685px) {
   .field {
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
   }
 }
 

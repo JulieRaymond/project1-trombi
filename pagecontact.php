@@ -32,7 +32,7 @@ include "includes/php/_head.php";
             <label for="ameliorer">Message</label>
 
             <textarea name="message" id="message" placeholder="Bonjour, ...." row="10" required> </textarea>
-            <br> <br>
+
             <input type="submit" value="Envoyer" class="cta">
 
 
