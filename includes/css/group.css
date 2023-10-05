@@ -1,12 +1,12 @@
-@import url(generalStyle.css);
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 2rem;
+  width: 100%;
 }
 main > img {
   border-radius: 33%;
-  width: 100%;
+  width: 80%;
 }

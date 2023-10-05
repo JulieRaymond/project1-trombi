@@ -30,3 +30,13 @@ Mail : blabla@gmail.com
 Message :
 encore un message
 *******************************
+Nom : toto
+Mail : 
+Message :
+Bravo pour ce magnifique formulaire !
+*******************************
+Nom : toto
+Mail : toto@tot.bla
+Message :
+Bravo pour ce magnifique formulaire !
+*******************************
