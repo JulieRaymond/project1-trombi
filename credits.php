@@ -8,7 +8,7 @@ include "includes/php/_head.php";
 
     <div class="container">
         <div class="credits">
-            <h1>Crédits</h1>
+            <h1>Page Crédits</h1>
         </div>
         <div class="logo">
             <h2>Logo</h2>

@@ -6,12 +6,12 @@ require_once "asset/scripts/classgoldbook.php";
 
 
 $goldBook = new GoldBook("includes/txt/goldbook.txt");
-if (isset($_POST["contactname"])) {
+if (isset($_POST["name"])) {
 
     //récupérer et nettoyer les infos postées
-    $name = cleanInput($_POST["contactname"]);
-    $mail = cleanInput($_POST["contactemail"]);
-    $message = cleanInput($_POST["contactmessage"]);
+    $name = cleanInput($_POST["name"]);
+    $mail = cleanInput($_POST["email"]);
+    $message = cleanInput($_POST["message"]);
 
     $goldBook->saveMessage($name, $mail, $message);
 }
