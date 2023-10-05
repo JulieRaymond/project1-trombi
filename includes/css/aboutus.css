@@ -1,53 +1,128 @@
-
-    
 body{
     background-color: #e3d4d5;
-}
-/*.container{
-    width: 40vw;
-    height: 40vw;
-    clip-path: ellipse(50% 50%);
-}*/
-.photo1{
-    display: flex;
-   
-    width: 40vw;
-    height: 40vw;
-    clip-path: ellipse(50% 50%);
-
-}
-.photo2{
-    display: flex;
-    align-content: center;
-     width: 40vw;
-     height: 40vw;
-     clip-path: ellipse(50% 50%);
- }
- .photo3{
-     display: flex;
-     width: 40vw;
-     height: 40vw;
-     clip-path: ellipse(50% 50%);
- }
-
- .photo4{
-    display: flex;
-     width: 40vw;
-     height: 40vw;
-     clip-path: ellipse(50% 50%);
- }
-
- .photo5{
-    display: flex;
-     width: 40vw;
-     height: 40vw;
-     clip-path: ellipse(50% 50%);
- }
-
-.p{
-    size: 1vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blanchedalmond;
 } 
+main {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    
+}
+.photo1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    width: 30vw;
+    height: 30vw;
+    clip-path: ellipse(50% 50%);
+}
+.photo2 {
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 30vw;
+    height: 30vw;
+    clip-path: ellipse(50% 50%);
+}
+
+ .photo3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    width: 30vw;
+    height: 30vw;
+    clip-path: ellipse(50% 50%); 
+ }
+
+ .photo4 {
+    grid-column: -4/-3;
+    grid-row: 3/4;
+    display: flex;
+    width: 30vw;
+    height: 30vw;
+    clip-path: ellipse(50% 50%);
+ }
+
+ .photo5 {
+    display: flex;
+    grid-column: -1/-2;
+    grid-row: -2/-1;
+    width: 30vw;
+    height: 30vw;
+    clip-path: ellipse(50% 50%);
+ }
+
+.texte{
+    size: 1vw;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(58, 57, 56);
+    grid-column: 1/4 ;
+   
+}  
+@media screen and (width > 768px){
+
+.photo1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    clip-path: ellipse(50% 45%);
+}
+
+.photo2 {
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 20vw;
+    height: 20vw;
+    clip-path: ellipse(50% 45%);
+}
+
+ .photo3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    clip-path: ellipse(50% 45%); 
+ }
+
+ .photo4 {
+    grid-column: -4/-3;
+    grid-row: 3/4;
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    clip-path: ellipse(50% 45%);
+ }
+
+ .photo5 {
+    display: flex;
+    grid-column: -1/-2;
+    grid-row: -2/-1;
+    width: 20vw;
+    height: 20vw;
+    clip-path: ellipse(50% 45%);
+ }
+
+.texte{
+    size: 1vw;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(58, 57, 56);
+    grid-column: 1/4 ;
+   
+}  
+}
+ 
  
      
