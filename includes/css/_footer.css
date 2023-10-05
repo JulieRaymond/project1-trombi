@@ -7,16 +7,16 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #42354a;
+  background-color: var(--color-background-navbar);
   color: #fff;
   height: 50px;
   width: 100vw;
 }
 
 .box1 {
-  border: 2px solid rgb(235, 162, 162);
+  border: 2px solid var(--color-logo);
   border-radius: 35%;
-  background-color: #bea695;
+  background-color: var(--color-background-button);
   margin: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -25,7 +25,7 @@ footer {
 footer img {
   width: auto;
   height: 30px;
-  color: #ed6c6d;
+  color: var(--color-logo);
   margin-right: 15px;
 }
 
