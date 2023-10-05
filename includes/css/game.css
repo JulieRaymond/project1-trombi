@@ -1,0 +1,59 @@
+body {
+  padding-top: 0;
+  padding-left: 0;
+  margin: 0;
+}
+
+table {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.game {
+  cursor: pointer;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+}
+
+tr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (width > 685px) {
+  tr {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+td {
+  /* flex-grow: 2; */
+  margin-bottom: 3px;
+}
+
+img {
+  height: 4rem;
+  width: 4rem;
+}
+
+#message {
+  display: none;
+  text-align: center;
+  font-size: 24px;
+  background-color: var(--color-logo);
+  padding: 10px;
+  border: 2px solid var(--color-background-navbar);
+  border-radius: 50%;
+  margin: 20px auto;
+  width: 50%;
+}

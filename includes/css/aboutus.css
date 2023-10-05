@@ -1,40 +1,128 @@
-.images{
+body{
+    background-color: #e3d4d5;
+} 
+main {
+    margin-top: 2rem;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    
+}
+.photo1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    width: 30vw;
+    height: 30vw;
+    clip-path: ellipse(50% 50%);
+}
+.photo2 {
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 30vw;
+    height: 30vw;
+    clip-path: ellipse(50% 50%);
 }
 
+ .photo3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    width: 30vw;
+    height: 30vw;
+    clip-path: ellipse(50% 50%); 
+ }
 
-.image1 {
-    object-position: left bottom;
-    clip-path: ellipse(50% 45%);
-    height: 200px;
-    top: 300px;
-}    
+ .photo4 {
+    grid-column: -4/-3;
+    grid-row: 3/4;
+    display: flex;
+    width: 30vw;
+    height: 30vw;
+    clip-path: ellipse(50% 50%);
+ }
 
-.image2 {
-    clip-path: ellipse(50% 45%);
-    height: 200px;
-    position:absolute;
-    top: 300px;
-}    
+ .photo5 {
+    display: flex;
+    grid-column: -1/-2;
+    grid-row: -2/-1;
+    width: 30vw;
+    height: 30vw;
+    clip-path: ellipse(50% 50%);
+ }
 
-.image3 {
-    clip-path: ellipse(50% 45%);
-    height: 200px;
-    top: 300px;
-
-}  
-
-.image4 {
-    clip-path: ellipse(50% 45%);
-    height: 200px;
-    position:absolute;
-    top: 600px;
+.texte{
+    size: 1vw;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(58, 57, 56);
+    grid-column: 1/4 ;
    
-}    
+}  
+@media screen and (width > 768px){
 
-.image5 {
+.photo1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    width: 20vw;
+    height: 20vw;
     clip-path: ellipse(50% 45%);
-    height: 200px;
-    top: 300px;
 }
+
+.photo2 {
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 20vw;
+    height: 20vw;
+    clip-path: ellipse(50% 45%);
+}
+
+ .photo3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    clip-path: ellipse(50% 45%); 
+ }
+
+ .photo4 {
+    grid-column: -4/-3;
+    grid-row: 3/4;
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    clip-path: ellipse(50% 45%);
+ }
+
+ .photo5 {
+    display: flex;
+    grid-column: -1/-2;
+    grid-row: -2/-1;
+    width: 20vw;
+    height: 20vw;
+    clip-path: ellipse(50% 45%);
+ }
+
+.texte{
+    size: 1vw;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(58, 57, 56);
+    grid-column: 1/4 ;
+   
+}  
+}
+ 
+ 
+     

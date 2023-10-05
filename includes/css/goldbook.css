@@ -1,0 +1,28 @@
+section {
+  margin: 5vh;
+  display: flex;
+  flex-direction: column-reverse;
+}
+section article {
+  border: 1px solid var(--color-border);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+@media screen and (width > 576px) {
+  .gbcontenair {
+    margin: 5vh 10vh;
+  }
+}
+
+@media screen and (width > 768px) {
+  .gbcontenair {
+    margin: 5vh 33vh;
+  }
+}
+
+@media screen and (width > 992px) {
+  .gbcontenair {
+    margin: 5vh 40vh;
+  }
+}

@@ -1,0 +1,42 @@
+Nom : Nico
+Mail : blabla@gmail.com
+Message :
+test
+*******************************
+Nom : Casimir
+Mail : cas@a.mia
+Message :
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente architecto tempora laboriosam, animi alias reiciendis dolore aspernatur nobis optio nesciunt est necessitatibus molestias ad debitis ullam quis non temporibus repellendus. Lorem
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente architecto tempora laboriosam, animi alias reiciendis dolore aspernatur nobis optio nesciunt est necessitatibus molestias ad debitis ullam quis non temporibus repellendus.
+*******************************
+Nom : Sabrina
+Mail : sabrina@love.com
+Message :
+Bravo pour ce site magnifique et ce livre d&amp;#039;or splendide !
+*******************************
+Nom : Nico
+Mail : on@sens.moque
+Message :
+&amp;lt;br&amp;gt;ici c&amp;#039;est &amp;lt;br&amp;gt; un test pour les &amp;lt;br&amp;gt; balises
+*******************************
+Nom : hackeur
+Mail : hackeur@anonymous.com
+Message :
+&amp;lt;script&amp;gt;console.log(666)&amp;lt;/script&amp;gt;
+&amp;lt;?= echo &amp;quot;plop&amp;quot;&amp;gt;
+*******************************
+Nom : Nico
+Mail : blabla@gmail.com
+Message :
+encore un message
+*******************************
+Nom : toto
+Mail : 
+Message :
+Bravo pour ce magnifique formulaire !
+*******************************
+Nom : toto
+Mail : toto@tot.bla
+Message :
+Bravo pour ce magnifique formulaire !
+*******************************
