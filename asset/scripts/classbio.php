@@ -119,7 +119,7 @@ class Biography
     }
     public function getPage(): string // pas sûr que cela serve
     {
-        return $this->page;
+        return "bio.php?name=" . $this->page;
     }
     public function getImage(): string
     {
