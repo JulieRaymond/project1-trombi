@@ -24,7 +24,7 @@ include "includes/php/_head.php";
             <input type="text>" name="nom&prénom" id="nom&prénom" size="40" placeholder="ex: WILDER Paul" autofocus required>
 
 
-            <label>email</label>
+            <label>Email</label>
 
             <input type="email" placeholder="frg@gmail.com" required>
 
