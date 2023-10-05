@@ -19,17 +19,17 @@ include "includes/php/_head.php";
         <form action="goldbook.php" method="post">
 
 
-            <label>Nom et Prénom</label>
+            <label for="name">Nom et Prénom</label>
 
-            <input type="text>" name="nom&prénom" id="nom&prénom" size="40" placeholder="ex: WILDER Paul" autofocus required>
-
-
-            <label>Email</label>
-
-            <input type="email" placeholder="frg@gmail.com" required>
+            <input type="text>" name="name" id="name" size="40" placeholder="ex: WILDER Paul" autofocus required>
 
 
-            <label for="ameliorer">Message</label>
+            <label for="email">Email</label>
+
+            <input type="email" id="email" name="email" placeholder="frg@gmail.com" required>
+
+
+            <label for="message">Message</label>
 
             <textarea name="message" id="message" placeholder="Bonjour, ...." row="10" required> </textarea>
 
