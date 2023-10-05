@@ -55,9 +55,8 @@ include "includes/php/_head.php"; ?>
             <td><img class="game" src="/asset/logos/logoP.png" /></td>
             <td><img class="game" src="/asset/logos/logoP.png" /></td>
             <td><img class="game" src="/asset/logos/logoP.png" /></td>
-
-
         </tr>
+        <div id="message" style="display: none;"></div>
 
 
     </table>

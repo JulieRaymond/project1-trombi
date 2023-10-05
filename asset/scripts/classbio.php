@@ -56,7 +56,7 @@ class Biography
     private function createScrset(): string
     {
 
-        $srcset = 'asset/images/' . $this->page . '.jpg 2024w,';
+        $srcset = 'asset/images/crop/' . $this->page . '.jpg 2024w,';
         foreach (Biography::IMAGES_WIDTHS as $width) {
             $srcset .= 'asset/images/crop/images' . $width . '/' . $this->page . $width . '.jpg ' . $width . 'w,';
         }

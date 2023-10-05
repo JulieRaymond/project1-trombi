@@ -13,6 +13,20 @@ h1 {
   font-family: var(--font-h1);
   font-size: var(--font-size-h1);
 }
+
+h2 {
+  font-family: var(--font-h2);
+  font-size: var(--font-size-h2);
+}
+h3 {
+  font-family: var(--font-h3);
+  font-size: var(--font-size-h3);
+}
+p {
+  font-family: var(--font-text);
+  font-size: var(--font-size-text);
+}
+
 @media screen and (width > 576) {
   body {
     margin: 0 10vw;

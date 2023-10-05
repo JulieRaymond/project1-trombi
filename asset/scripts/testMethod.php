@@ -7,3 +7,4 @@ require_once "biowrite.php";
 //echo $julie->getSrcset() . PHP_EOL;
 //echo $julie->getSizes() . PHP_EOL;
 echo $sami->getSrcAndSizes() . PHP_EOL;
+echo $phpGroup['sami']->getSrcAndSizes() . PHP_EOL;
