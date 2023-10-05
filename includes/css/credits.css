@@ -10,7 +10,13 @@ body {
   justify-content: start;
   align-items: center;
   align-content: center;
-  margin: 2rem 6rem;
+  margin: 68px 6rem 2rem 6rem;
+}
+
+@media screen and (width > 576px) {
+  .contenair {
+    margin: 68px 200px 2rem 20vw;
+  }
 }
 
 h2,
@@ -18,10 +24,6 @@ h3 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-p {
-  text-align: justify;
 }
 
 .logo {

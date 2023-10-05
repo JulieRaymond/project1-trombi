@@ -5,9 +5,11 @@ nav {
   align-items: center;
   /*border-radius: 10%;*/
   background-color: #42354a;
-  position: fixed;
+  position: absolute;
+  z-index: 10;
   width: 100%;
   top: 0;
+  height: 68px;
 }
 
 /* nav .main_pages {
@@ -17,7 +19,7 @@ nav {
   padding: 0px 300px;
 } */
 
-  /* nav .main_pages a {
+/* nav .main_pages a {
     height: 20%;
     display: flex;
     justify-content: space-around;
@@ -38,14 +40,13 @@ nav img {
   margin: 0;
   padding: 0;
   height: 58px;
-  width: auto; 
+  width: auto;
   /* border-radius: 25%; */
 }
 
-
 .desktopNav {
   display: flex;
-} 
+}
 
 #logoNavDesktop {
   width: 20%;
@@ -60,24 +61,21 @@ nav img {
 }
 
 #linksNavDesktop a {
-    display: flex;
-    padding: .5rem;
-    align-items: center;
-    height: 20%;
-    text-decoration: none;
-    background-color: var(--color-background-button);
-    border: 2px solid var(--color-logo);
-    border-radius: 35%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: beige;
-} 
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  height: 20%;
+  text-decoration: none;
+  background-color: var(--color-background-button);
+  border: 2px solid var(--color-logo);
+  border-radius: 35%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: beige;
+}
 
 .mobileNav {
   display: none;
 }
-
-
-
 
 .dropbtn {
   background-color: var(--color-background-navbar);
@@ -88,13 +86,12 @@ nav img {
   cursor: pointer;
 }
 
-
 .menu-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -110,8 +107,9 @@ nav img {
   display: block;
 }
 
-.menu-content:hover {background-color: #e70c0c}
-
+.menu-content:hover {
+  background-color: #e70c0c;
+}
 
 #linksNavMobile:hover .menu-content {
   display: block;
@@ -120,9 +118,6 @@ nav img {
 #linksNavMobile:hover .dropbtn {
   background-color: var(--color-background-navbar);
 }
-
-
-
 
 @media all and (max-width: 768px) {
   /*@media all and (width > 768px)*/
@@ -140,8 +135,6 @@ nav img {
     justify-content: space-between;
   }
 
-  
-
   /* nav .main_pages {
     display: none;
     float: right;
@@ -156,7 +149,7 @@ nav img {
     align-items: center;
   }
  */
- /*  #label_for_menu {
+  /*  #label_for_menu {
     padding: 7px;
     display: flex;
     float: right;
@@ -168,4 +161,3 @@ nav img {
     display: flex;
   } */
 }
-
