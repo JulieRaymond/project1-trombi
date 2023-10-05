@@ -43,6 +43,7 @@ function writeObject($fileToWrite, $firstName): void
     $stringToCreateObject = '$' . $firstName . ' = new Biography(' . $arguments . ');' . PHP_EOL;
     fwrite($fileToWrite, $stringToCreateObject);
     fwrite($fileToWrite, '$phpGroup["' . $firstName . '"] = $' . $firstName . ';' . PHP_EOL . PHP_EOL);
+    echo trim($firstName) . " a bien été créé." . PHP_EOL;
 }
 
 
@@ -69,6 +70,7 @@ function parseBios()
                 fwrite($fileToWrite, '$bio = ' . nl2br($bioText) . PHP_EOL);
 
                 writeObject($fileToWrite, $firstName);
+
 
                 // reset des variables (la boucle est bouclée)
 
