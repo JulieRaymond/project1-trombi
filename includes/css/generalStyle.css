@@ -32,26 +32,26 @@ p {
   font-size: var(--font-size-text);
 }
 
-@media screen and (width > 576) {
+/* @media screen and (width > 576px) {
   body {
     margin: 0 10vw;
   }
 }
-@media screen and (width > 768) {
+@media screen and (width > 768px) {
   body {
     margin: 0 20vw;
   }
 }
-@media screen and (width > 992) {
+@media screen and (width > 992px) {
   body {
     margin: 0 30vw;
   }
 }
-@media screen and (width > 1200) {
+@media screen and (width > 1200px) {
   body {
     margin: 0 30vw;
   }
-}
+} */
 /* 
 576px;
   --width-tablet: 768px;

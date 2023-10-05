@@ -3,19 +3,20 @@ body {
   padding: 0;
 }
 
-.container {
+.indexcontainer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   align-content: center;
-  margin: 68px 6rem 2rem 6rem;
+  margin: 68px 1rem 2rem 1rem;
 }
 
-@media screen and (width > 576px) {
-  .contenair {
-    margin: 68px 200px 2rem 20vw;
+@media screen and (width > 992px) {
+  .credit-div {
+    margin-left: 20vw;
+    margin-right: 20vw;
   }
 }
 
