@@ -35,8 +35,8 @@ Mail :
 Message :
 Bravo pour ce magnifique formulaire !
 *******************************
-Nom : toto
-Mail : toto@tot.bla
+Nom : Grooto
+Mail : groot@groot.groot
 Message :
 
 Nom prénom : - Groot
