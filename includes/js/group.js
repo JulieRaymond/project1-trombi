@@ -1,8 +1,6 @@
 let width = window.window.innerWidth;
 let height = window.innerHeight;
 
-console.log("bla");
-
 if (width > height) {
   let img = document.getElementById("group-picture");
   img.setAttribute("src", "asset/images/groupe/groupe-paysage.jpg");
