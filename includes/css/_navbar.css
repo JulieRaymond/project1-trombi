@@ -88,6 +88,7 @@ nav img {
 
 .menu-content {
   display: none;
+  right: 0;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
@@ -107,8 +108,8 @@ nav img {
   display: block;
 }
 
-.menu-content:hover {
-  background-color: #e70c0c;
+.menu-content a:hover {
+  background-color: var(--color-background-button);
 }
 
 #linksNavMobile:hover .menu-content {

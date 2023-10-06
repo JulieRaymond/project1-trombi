@@ -18,14 +18,14 @@
             <a href="index.php"><img src="asset/logos/logo-php.svg" id="logo" /></a>
         </div>
         <div id="linksNavMobile">
-            <button class="dropbtn">☰</button>
+            <buttongit  class="dropbtn">☰</buttongit>
             <div class="menu-content">
                 <a href="aboutus.php">A propos de nous</a>
                 <a href="group.php">Groupe PHP</a>
                 <a href="pagecontact.php">contact</a>
                 <a href="goldbook.php">Livre d'or</a>
             </div>
-        </div>
+         </div>
     </div>
     <!-- 
 
