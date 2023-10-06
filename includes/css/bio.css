@@ -6,7 +6,7 @@
 }
 
 .container div {
-  background-color: var(--color-background-button);
+  /*background-color: var(--color-background-button);*/
   padding: 5px;
   margin: 5px;
 }
