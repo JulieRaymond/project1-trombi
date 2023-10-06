@@ -6,7 +6,7 @@ include "includes/php/_head.php";
 
 <main>
 
-    <div class="container">
+    <div class="container credit-div" id="contenair">
         <div class="credits">
             <h1>Page Crédits</h1>
         </div>
@@ -37,6 +37,7 @@ include "includes/php/_head.php";
             <p>Vous pouvez nous trouver pieds nus, ou en chaussons, dans les locaux de la Wild Code School Bordeaux, bien sûr !</p>
             <div class="map-responsive">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.6736744541404!2d-0.5673752240069829!3d44.86893767107053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527cba74d1bdf%3A0xb92bcdcad0920688!2sWild%20Code%20School%2C%20Formation%20d%C3%A9veloppeur%20web%20%26%20data%20analyst!5e0!3m2!1sfr!2sfr!4v1696440894774!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
             </div>
         </div>
     </div>

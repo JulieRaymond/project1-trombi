@@ -35,8 +35,23 @@ Mail :
 Message :
 Bravo pour ce magnifique formulaire !
 *******************************
-Nom : toto
-Mail : toto@tot.bla
+Nom : Grooto
+Mail : groot@groot.groot
 Message :
-Bravo pour ce magnifique formulaire !
+
+Nom prénom : - Groot
+Astro : Jes'appelleGroot
+ville d'origine : X
+url linkedin : https://www.linkedin.com/in/je-s%E2%80%99appelle-groot-351b0818b/?originalSubdomain=fr
+Formulaire perso :
+- Centre d'intérêt préféré : Je s'appelle Groot !
+- Sport ou activité préféré : Je s'appelle Groot !
+- Animal totem : Je s'appelle Groot !
+- Bio personnelle Anecdote, lâchez vous !>
+Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot !
+Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot !
+Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! 
+Je s'appelle Groot ! Je s'appelle Groot ! 
+Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot ! Je s'appelle Groot !
+
 *******************************

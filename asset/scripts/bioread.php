@@ -28,6 +28,7 @@ function writeStartOfFile($fileToWrite): void
 
 function writeObject($fileToWrite, $firstName): void
 {
+
     $firstName = trim($firstName);
     $arguments = '$lastName, $firstName, $astro, $linkedIn, $interest, $activity, $animal, $bio';
     if ($firstName === "Côme") {
@@ -35,12 +36,14 @@ function writeObject($fileToWrite, $firstName): void
     } elseif ($firstName === "Mélissa") {
         $firstName = "melissa";
     } elseif ($firstName === "Séverine") {
+
         $firstName = "severine";
     }
     $firstName = strtolower($firstName);
     $stringToCreateObject = '$' . $firstName . ' = new Biography(' . $arguments . ');' . PHP_EOL;
     fwrite($fileToWrite, $stringToCreateObject);
     fwrite($fileToWrite, '$phpGroup["' . $firstName . '"] = $' . $firstName . ';' . PHP_EOL . PHP_EOL);
+    echo trim($firstName) . " a bien été créé." . PHP_EOL;
 }
 
 
@@ -68,12 +71,15 @@ function parseBios()
 
                 writeObject($fileToWrite, $firstName);
 
+
                 // reset des variables (la boucle est bouclée)
 
                 $isBio = false;
                 $bioText = '"';
             }
+
             $array = explode(" ", $line);
+
             $firstName = $array[count($array) - 1];
             //$firstName = trim($array[count($array) - 1]);
             createVariable('$lastName', $array[count($array) - 2], $fileToWrite);
