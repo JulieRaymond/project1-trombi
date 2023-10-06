@@ -32,10 +32,7 @@ function majAffichage(noCarte) {
 }
 
 function rejouer() {
-  //let messageElement = document.getElementById("message");
-  // messageElement.textContent = "Bravo !";
-  messageElement.textContent = window.location.href = "bravo.php";
-  messageElement.style.display = "block"; // Afficher le message
+  window.location.href = "bravo.php";
 }
 
 function initialiseJeu() {
