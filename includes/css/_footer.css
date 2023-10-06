@@ -13,8 +13,8 @@ footer {
 }
 
 .box1 {
-  border: 2px solid var(--color-logo);
-  border-radius: 35%;
+  border: 3px solid var(--color-logo);
+  border-radius: 20%;
   background-color: var(--color-background-button);
   margin: 1rem;
   padding-left: 2rem;
