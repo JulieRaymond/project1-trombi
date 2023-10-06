@@ -73,6 +73,7 @@ nav img {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: beige;
   transition: color 1s;
+  transition: background-color 2s;
 }
 
 #linksNavDesktop a:hover {

@@ -20,6 +20,12 @@
   height: 175px;
   border-radius: 50%;
   box-shadow: 0.5rem 0.5rem 1rem black;
+  transition: box-shadow 0.5s;
+}
+
+.photoProfile img:hover {
+  box-shadow: -0.5rem 0.5rem 1rem black;
+  transition: box-shadow 0.5s;
 }
 
 .photoPerso {
@@ -31,6 +37,12 @@
   height: 175px;
   border-radius: 50%;
   box-shadow: 0.5rem 0.5rem 1rem black;
+  transition: box-shadow 0.5s;
+}
+
+.photoPerso img:hover {
+  box-shadow: -0.5rem 0.5rem 1rem black;
+  transition: box-shadow 0.5s;
 }
 
 .boxinfo {
