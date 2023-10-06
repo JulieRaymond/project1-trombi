@@ -18,7 +18,7 @@
             <a href="index.php"><img src="asset/logos/logo-php.svg" id="logo" /></a>
         </div>
         <div id="linksNavMobile">
-            <buttongit  class="dropbtn">☰</buttongit>
+            <button  class="dropbtn">☰</button>
             <div class="menu-content">
                 <a href="aboutus.php">A propos de nous</a>
                 <a href="group.php">Groupe PHP</a>
