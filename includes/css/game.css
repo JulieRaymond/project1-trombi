@@ -1,9 +1,11 @@
+/* Réinitialisation des marges pour le corps de la page */
 body {
   padding-top: 0;
   padding-left: 0;
   margin: 0;
 }
 
+/* Style pour le tableau */
 table {
   display: flex;
   position: relative;
@@ -12,11 +14,13 @@ table {
   margin-bottom: 1.5em;
 }
 
+/* Styles pour les titres de niveau 1 et 2, centrés */
 h1,
 h2 {
   text-align: center;
 }
 
+/* Style pour les éléments de classe "game" (jeu) */
 .game {
   cursor: pointer;
   height: 6rem;
@@ -24,36 +28,28 @@ h2 {
   border-radius: 50%;
 }
 
+/* Styles pour les lignes du tableau (éléments "tr") */
 tr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media screen and (width > 685px) {
+
+/* Réglage de l'affichage des lignes sur les écrans larges */
+@media screen and (min-width: 686px) {
   tr {
     display: flex;
     flex-wrap: nowrap;
   }
 }
 
+/* Style pour les cellules du tableau (éléments "td") */
 td {
-  /* flex-grow: 2; */
   margin-bottom: 3px;
 }
 
+/* Style pour les images */
 img {
   height: 4rem;
   width: 4rem;
-}
-
-#message {
-  display: none;
-  text-align: center;
-  font-size: 24px;
-  background-color: var(--color-logo);
-  padding: 10px;
-  border: 2px solid var(--color-background-navbar);
-  border-radius: 50%;
-  margin: 20px auto;
-  width: 50%;
 }

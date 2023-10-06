@@ -1,8 +1,10 @@
+/* Réinitialisation des marges et des rembourrages pour le corps de la page */
 body {
   margin: 0;
   padding: 0;
 }
 
+/* Style pour le conteneur principal avec la classe "container" */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -13,13 +15,15 @@ body {
   margin: 68px 1rem 2rem 1rem;
 }
 
-@media screen and (width > 992px) {
+/* Réglage du style pour les écrans larges */
+@media screen and (min-width: 993px) {
   .credit-div {
     margin-left: 20vw;
     margin-right: 20vw;
   }
 }
 
+/* Styles pour les titres de niveau 2 et 3, centrés */
 h2,
 h3 {
   text-align: center;
@@ -27,6 +31,7 @@ h3 {
   margin-bottom: 20px;
 }
 
+/* Style pour le logo */
 .logo {
   display: flex;
   flex-direction: column;
@@ -34,6 +39,7 @@ h3 {
   align-items: center;
 }
 
+/* Style pour le conteneur de la carte Google Maps */
 .map-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -41,6 +47,7 @@ h3 {
   height: 0;
 }
 
+/* Style pour l'iframe de la carte Google Maps à l'intérieur du conteneur */
 .map-responsive iframe {
   left: 0;
   top: 0;
@@ -50,6 +57,7 @@ h3 {
   border-radius: 10%;
 }
 
+/* Style pour l'élément avec la classe "location" */
 .location {
   margin-bottom: 40px;
 }

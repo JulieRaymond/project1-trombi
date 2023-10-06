@@ -1,56 +1,64 @@
+/* Ce style centre le texte dans un élément h1 */
 h1 {
   display: grid;
   align-content: center;
   justify-content: center;
-
   position: absolute;
-  top: 50px; /* Ajuste la valeur en fonction de la mise en page */
+  top: 50px;
   left: 50%;
   transform: translateX(-50%);
 }
 
-@media screen and (width> 685px) {
+/* Ce style réinitialise les styles h1 pour les écrans larges */
+@media screen and (min-width: 686px) {
   h1 {
     position: initial;
-    top: initial; /* Ajuste la valeur en fonction de la mise en page */
+    top: initial;
     left: initial;
     transform: initial;
   }
 }
 
+/* Ce style définit le conteneur principal */
 #container {
   min-width: 100%;
-  height: 87vh; /* occupe la hauteur totale de l'écran */
+  height: 87vh;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Ce style définit les cartes (éléments avec la classe "field") */
 .field {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   position: absolute;
   overflow: hidden;
   margin: 8px;
 }
 
-@media screen and (width > 685px) {
+/* Ce style ajuste la taille des cartes pour les écrans larges */
+@media screen and (min-width: 686px) {
   .field {
-    width: 65px;
-    height: 65px;
-
+    width: 70px;
+    height: 70px;
   }
-  #container{
-    margin-top: 60px;
-
+}
+@media screen and (min-width: 993px) {
+  .field {
+    width: 90px;
+    height: 90px;
   }
 }
 
-#container{
+/* Ce style ajoute une marge au conteneur */
+#container {
   margin-top: 60px;
 }
+
+/* Ce style spécifie la taille et l'ajustement de l'image à l'intérieur des cartes */
 .field img {
   width: 100%;
   height: 100%;

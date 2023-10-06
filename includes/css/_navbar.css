@@ -57,21 +57,32 @@ nav img {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 20px;
+  /*margin-top: 15px;*/
+  align-items: center;
 }
 
 #linksNavDesktop a {
   display: flex;
-  padding: 0.5rem;
+  padding: 1rem;
   align-items: center;
   height: 20%;
   text-decoration: none;
   background-color: var(--color-background-button);
-  border: 2px solid var(--color-logo);
-  border-radius: 35%;
+  border: 3px solid var(--color-logo);
+  border-radius: 20%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: beige;
+  transition: color 1s;
+  transition: background-color 2s;
 }
+
+#linksNavDesktop a:hover {
+  color: var(--color-logo);
+  transition: color 1s;
+  background-color: var(--color-background-navbar);
+  transition: background-color 2s;
+}
+
 
 .mobileNav {
   display: none;
@@ -110,6 +121,7 @@ nav img {
 
 .menu-content a:hover {
   background-color: var(--color-background-button);
+
 }
 
 #linksNavMobile:hover .menu-content {

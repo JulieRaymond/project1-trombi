@@ -1,6 +1,7 @@
 function chooseImage() {
   let width = window.window.innerWidth;
   let height = window.innerHeight;
+
   let img = document.getElementById("group-picture");
   if (width > height) {
     img.setAttribute("src", "asset/images/groupe/groupe-paysage.jpg");
