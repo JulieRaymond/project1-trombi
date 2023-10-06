@@ -72,7 +72,16 @@ nav img {
   border-radius: 20%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: beige;
+  transition: color 1s;
 }
+
+#linksNavDesktop a:hover {
+  color: var(--color-logo);
+  transition: color 1s;
+  background-color: var(--color-background-navbar);
+  transition: background-color 2s;
+}
+
 
 .mobileNav {
   display: none;
@@ -111,6 +120,7 @@ nav img {
 
 .menu-content a:hover {
   background-color: var(--color-background-button);
+
 }
 
 #linksNavMobile:hover .menu-content {
