@@ -1,7 +1,7 @@
 function distributeFields() {
   let windowWidth = window.innerWidth;
   let windowHeight = window.innerHeight;
-  let radiusmobil = windowHeight / 5;
+  let radiusmobil = windowHeight / 6;
   let radiusdektop = windowHeight / 3;
   let container = document.getElementById("container");
 
@@ -25,7 +25,7 @@ function distributeFields() {
     let totalFieldsMobil = fieldsMobil.length;
     let angleIncrement2 = (Math.PI * 2) / totalFieldsMobil;
     let currentAngle2 = 0;
-    let innerRadius = radiusmobil / 2; //rayon en fonction de la distance entre les cercles.
+    let innerRadius = radiusmobil / 3; //rayon en fonction de la distance entre les cercles.
 
     fieldsMobil.forEach((field, index) => {
       let x, y;

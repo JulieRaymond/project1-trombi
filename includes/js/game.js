@@ -30,14 +30,11 @@ function majAffichage(noCarte) {
       break;
   }
 }
-// function rejouer() {
-//   alert("Bravo !");
-//   location.reload();
-// }
 
 function rejouer() {
-  let messageElement = document.getElementById("message");
-  messageElement.textContent = "Bravo !"; // Message que vous souhaitez afficher
+  //let messageElement = document.getElementById("message");
+  // messageElement.textContent = "Bravo !";
+  messageElement.textContent = window.location.href = "bravo.php";
   messageElement.style.display = "block"; // Afficher le message
 }
 
