@@ -37,12 +37,18 @@ h1 {
 
 @media screen and (width > 685px) {
   .field {
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
   }
-  #container {
-    margin-top: 60px;
+}
+@media screen and (width > 992px) {
+  .field {
+    width: 90px;
+    height: 90px;
   }
+}
+#container {
+  margin-top: 60px;
 }
 
 #container {
