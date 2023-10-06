@@ -25,18 +25,20 @@ p {
   }
 }
 
-field {
+fieldset {
   display: flex;
   position: relative;
   max-height: 100vh;
   min-width: 100vw;
   justify-content: center;
   align-items: flex-start;
+  border: none;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 60%;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -66,13 +68,17 @@ input {
   padding-bottom: 5px;
   border-radius: 3px;
   border: none;
+  width: 20rem;
 }
 
 textarea {
-  padding: 40px;
+  /* padding: 40px; */
+  padding: 2px;
   border-radius: 3px;
   border: none;
   margin-bottom: 2rem;
+  height: 10rem;
+  width: 20rem;
 }
 
 .cta {
@@ -85,4 +91,15 @@ textarea {
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 3px;
+}
+@media screen and (width > 556px) {
+  input {
+    width: 20rem;
+  }
+  .cta {
+    width: 20rem;
+  }
+  textarea {
+    width: 40rem;
+  }
 }

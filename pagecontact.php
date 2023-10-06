@@ -8,20 +8,20 @@ include "includes/php/_head.php";
 ?>
 <main>
 
-    <h1>Contactez-nous !</h1>
+    <h1>Laissez un message sur notre livre d'or !</h1>
 
     <p> Prêt à rencontrer nos super-devs ? <br>
 
         Remplisser le formulaire et laissez-nous coder !</p>
 
 
-    <field>
+    <fieldset>
         <form action="goldbook.php" method="post">
 
 
             <label for="name">Nom et Prénom</label>
 
-            <input type="text>" name="name" id="name" size="40" placeholder="ex: WILDER Paul" autofocus required>
+            <input type="text>" name="name" id="name" placeholder="ex: WILDER Paul" autofocus required>
 
 
             <label for="email">Email</label>
@@ -31,13 +31,13 @@ include "includes/php/_head.php";
 
             <label for="message">Message</label>
 
-            <textarea name="message" id="message" placeholder="Bonjour, ...." row="10" required> </textarea>
+            <textarea name="message" id="message" placeholder="Bonjour, ...." required> </textarea>
 
             <input type="submit" value="Envoyer" class="cta">
 
 
         </form>
-    </field>
+    </fieldset>
 
 </main>
 <?php

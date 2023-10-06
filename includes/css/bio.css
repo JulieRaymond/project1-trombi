@@ -1,14 +1,20 @@
 .container {
   background-color: var(--color-background-pages);
-  display: grid;
+  /* display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
+  display: flex;
+  flex-direction: column;
 }
 
 .container div {
   /*background-color: var(--color-background-button);*/
   padding: 5px;
   margin: 5px;
+}
+.sub-contenair {
+  display: flex;
+  justify-content: space-around;
 }
 
 .photoProfile {
@@ -55,10 +61,10 @@
   height: auto;
 }
 
-.boxBio {
+/* .boxBio {
   grid-column: 1/3;
   text-align: center;
-}
+} */
 
 @media screen and (width > 572px) {
   .container {

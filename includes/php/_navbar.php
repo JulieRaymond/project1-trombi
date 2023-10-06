@@ -8,7 +8,7 @@
         <div id="linksNavDesktop">
             <a href="aboutus.php">A propos de nous</a>
             <a href="group.php">Groupe PHP</a>
-            <a href="pagecontact.php">contact</a>
+            <a href="pagecontact.php">Contact</a>
             <a href="goldbook.php">Livre d'or</a>
         </div>
     </div>
@@ -22,7 +22,7 @@
             <div class="menu-content">
                 <a href="aboutus.php">A propos de nous</a>
                 <a href="group.php">Groupe PHP</a>
-                <a href="pagecontact.php">contact</a>
+                <a href="pagecontact.php">Contact</a>
                 <a href="goldbook.php">Livre d'or</a>
             </div>
         </div>
