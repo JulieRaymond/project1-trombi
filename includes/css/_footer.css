@@ -7,18 +7,29 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-background-navbar);
-  color: #fff;
+  
   height: 50px;
   width: 100vw;
+  
 }
 
 .box1 {
   border: 3px solid var(--color-logo);
   border-radius: 20%;
+  color: #fff;
   background-color: var(--color-background-button);
   margin: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  transition: background-color 2s;
+  transition: color 1s;
+}
+
+.box1:hover{
+  color: var(--color-logo);
+  background-color: var(--color-background-navbar);
+  transition: color 1s;
+  transition: background-color 2s;
 }
 
 footer img {
