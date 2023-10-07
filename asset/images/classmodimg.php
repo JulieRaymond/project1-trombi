@@ -3,25 +3,55 @@ require_once "functions.php";
 require_once "crop.php";
 require_once "resize.php";
 
+/**
+ * @author Nicolas Leroux 
+ * @link https://github.com/Phalenopsis/resize
+ * 
+ * use php modimg.php to lauch
+ * used to resize and or crop all .jpg images in a directory
+ */
+
+
 class ModImg
 {
     private array $options;
-    private string $noArgs = "Please hint php modimg.php -h to access help" . PHP_EOL;
-    private string $help = 'use' . "\t" . 'php modimg.php --crop "margin"' . PHP_EOL .
-        '=> crop all all .jpg images you have in actual directory and save them in news directories' . PHP_EOL .
-        'use' . "\t" . 'php moding.php --resize "sizes you want"' . PHP_EOL .
-        '=> resize all .jpg images you have in actual directory and save them in news directories' . PHP_EOL .
-        'use' . "\t" . 'php modimg.php -- crop "margin" --resize "sizes you want"' . PHP_EOL .
-        '=> crop all .jpg image and resize them in news directory';
-    private string $version = "v. 0.0.2";
-    private ?string $willCrop = null;
-    private ?string $willResize = null;
-    private string $directory = ".";
+    private string $noArgs;
+    private string $help;
+    private string $version;
+    private ?string $willCrop;
+    private ?string $willResize;
+    private string $directory;
 
     function __construct($options)
     {
+        $this->noArgs = "Please hint php modimg.php -h to access help" . PHP_EOL;
+        $this->help  = 'use' . "\t" . 'php modimg.php --crop "margin"' . PHP_EOL .
+            '=> crop all all .jpg images you have in actual directory and save them in news directories' . PHP_EOL .
+            'use' . "\t" . 'php moding.php --resize "sizes you want"' . PHP_EOL .
+            '=> resize all .jpg images you have in actual directory and save them in news directories' . PHP_EOL .
+            'use' . "\t" . 'php modimg.php -- crop "margin" --resize "sizes you want"' . PHP_EOL .
+            '=> crop all .jpg image and resize them in news directory';
+        $this->version = "v. 0.0.2";
+        $this->willCrop = null;
+        $this->willResize = null;
+        $this->directory = ".";
         $this->options = getopt($options->getShortOptions(), $options->getLongOptions());
         $this->parseOptions();
+    }
+
+    private function setWillCrop($option)
+    {
+        $this->willCrop = $option;
+    }
+
+    private function setWillResize($option)
+    {
+        $this->willResize = $option;
+    }
+
+    private function setCropDirectory()
+    {
+        $this->directory .= "/crop";
     }
 
     private function getOptions()
@@ -40,9 +70,26 @@ class ModImg
 
     private function getVersion()
     {
-        return 'modimg ' . $this->version . PHP_EOL . PHP_EOL;
+        return 'modimg ' . $this->version . PHP_EOL . "get last version at https://github.com/Phalenopsis/resize" . PHP_EOL;
+    }
+    private function getWillCrop()
+    {
+        return $this->willCrop;
+    }
+    private function getWillResize()
+    {
+        return $this->willResize;
+    }
+    function getDirectory()
+    {
+        return $this->directory;
     }
 
+    /**
+     * parse options and launch features neaded
+     *
+     * @return void
+     */
     public function parseOptions()
     {
         if (empty($this->getOptions())) {
@@ -73,25 +120,6 @@ class ModImg
         exit($message);
     }
 
-    private function setWillCrop($option)
-    {
-        $this->willCrop = $option;
-    }
-
-    private function setWillResize($option)
-    {
-        $this->willResize = $option;
-    }
-
-    private function getWillCrop()
-    {
-        return $this->willCrop;
-    }
-    private function getWillResize()
-    {
-        return $this->willResize;
-    }
-
     private function verifyNumericArgs(?string $argsSent): ?array
     {
         if (!$argsSent) {
@@ -108,14 +136,8 @@ class ModImg
         }
         return $argsInt;
     }
-    private function setCropDirectory()
-    {
-        $this->directory .= "/crop";
-    }
-    function getDirectory()
-    {
-        return $this->directory;
-    }
+
+
     private function actions()
     {
         if ($this->willCrop) {
