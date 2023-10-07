@@ -17,8 +17,8 @@
           echo "mobil";
         }
         ?>">
-          <a href="<?php echo $person->getPage(); ?>">
-            <img src="<?php echo $person->getImage(); ?>" srcset="<?php echo $person->getSrcset(); ?>" sizes="<?php echo $person->getSizes(); ?>" alt="<?php echo $person->getFirstName(); ?>" />
+          <a href="<?php echo $person->getPhpPage(); ?>">
+            <?= $person->getImgTag() ?>
           </a>
         </div>
       <?php

@@ -15,7 +15,7 @@ include "includes/php/_head.php";
     <div class="container">
         <div class="sub-contenair">
             <div class="photoProfile">
-                <img src="<?= $name->getImage() ?>" <?= $name->getSrcAndSizes() ?> alt="Photo de <?= $name->getFirstName() ?>">
+                <?= $name->getImgTag() ?>
             </div>
             <div class=" boxinfo">
                 <h1>
@@ -32,7 +32,7 @@ include "includes/php/_head.php";
                     Animal: <?= $name->getAnimal() ?></p>
             </div>
             <div class="photoPerso">
-                <img src="<?= $name->getImage() ?>" <?= $name->getSrcAndSizes() ?> alt="Photo de <?= $name->getFirstName() ?>">
+                <?= $name->getImgTag() ?>
             </div>
         </div>
         <div class="boxBio">

@@ -14,11 +14,26 @@ function passLines($fileToRead, int $nbOfLines): void
     }
 }
 
+/**
+ * write a variable in the open file
+ *
+ * @param string $variable name of the variable
+ * @param string $value value of the variabl
+ * @param mixed $fileToWrite ressource from fopen()
+ * @return void
+ */
 function createVariable(string $variable, string $value, mixed $fileToWrite): void
 {
     fwrite($fileToWrite, $variable . ' = "' . trim($value) . '";' . PHP_EOL);
 }
 
+
+/**
+ * start a php file to create some bio from classbio.php
+ *
+ * @param [type] $fileToWrite ressource from fopen()
+ * @return void 
+ */
 function writeStartOfFile($fileToWrite): void
 {
     fwrite($fileToWrite, '<?php' . PHP_EOL);
@@ -26,6 +41,13 @@ function writeStartOfFile($fileToWrite): void
     fwrite($fileToWrite, '$phpGroup = [];' . PHP_EOL);
 }
 
+/**
+ * write string to create a bio object 
+ *
+ * @param [type] $fileToWrite
+ * @param [type] $firstName
+ * @return void
+ */
 function writeObject($fileToWrite, $firstName): void
 {
 
@@ -46,7 +68,11 @@ function writeObject($fileToWrite, $firstName): void
     echo trim($firstName) . " a bien été créé." . PHP_EOL;
 }
 
-
+/**
+ * read biostext.txt, parse the text and write biowrite.php
+ *
+ * @return void
+ */
 function parseBios()
 {
     $firstName = "";

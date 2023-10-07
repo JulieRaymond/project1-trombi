@@ -11,6 +11,7 @@ class Biography
     private string $animal;
     private string $bio;
     private string $page;
+    private string $phpPage;
     private string $image; //a faire après avoir recadrer les images
     private string $srcset; // a faire après avoir redimmensionner une image
     private string $sizes;
@@ -28,13 +29,19 @@ class Biography
         $this->activity = $activity;
         $this->animal = $animal;
         $this->bio = $bio;
-        $this->page = $this->createPage();
-        $this->image = $this->createImage();
-        $this->srcset = $this->createScrset();
-        $this->setSizes();
+        $this->page = $this->setPage();
+        $this->phpPage = $this->setPhpPage();
+        $this->image = $this->setImage();
+        $this->srcset = $this->setScrset();
+        $this->sizes = $this->setSizes();
     }
 
-    private function createPage(): string
+    /**
+     * set page variable. Used to set phpPage and srcset
+     *
+     * @return string
+     */
+    private function setPage(): string
     {
         if ($this->firstName === "Côme") {
             $firstName = "come";
@@ -47,25 +54,49 @@ class Biography
         }
         return $firstName;
     }
-
-    private function createImage(): string // ajouter alt ?
+    /**
+     * set bio.page liend to this person
+     *
+     * @return string
+     */
+    private function setPhpPage(): string
     {
-        return 'asset/images/crop/' . $this->page . '.jpg';
+        return "bio.php?name=" . $this->getPage();
     }
 
-    private function createScrset(): string
+    /**
+     * set img src as in html <img>
+     *
+     * @return void
+     */
+    private function setImage(): string // ajouter alt ?
+    {
+        return 'asset/images/crop/' . $this->getPage() . '.jpg';
+    }
+
+    /**
+     * set srcset as in html <img>
+     *
+     * @return string
+     */
+    private function setScrset(): string
     {
 
         $srcset = 'asset/images/crop/' . $this->page . '.jpg 2024w,';
         foreach (Biography::IMAGES_WIDTHS as $width) {
-            $srcset .= 'asset/images/crop/images' . $width . '/' . $this->page . $width . '.jpg ' . $width . 'w,';
+            $srcset .= 'asset/images/crop/images' . $width . '/' . $this->getPage() . $width . '.jpg ' . $width . 'w,';
         }
         $srcset =  substr($srcset, 0, -1) . PHP_EOL;
         $srcset = str_replace(",", "," . PHP_EOL, $srcset);
         return $srcset;
     }
 
-    private function createSizes(): string
+    /**
+     * set sizes as in html <img>
+     *
+     * @return string
+     */
+    private function setSizes(): string
     {
         $sizes = "";
         foreach (Biography::IMAGES_WIDTHS as $width) {
@@ -74,11 +105,11 @@ class Biography
         return $sizes . '2048px';
     }
 
-    private function setSizes()
-    {
-        $this->sizes = $this->createSizes();
-    }
-
+    /**
+     * return last name
+     *
+     * @return string
+     */
     public function getLastName(): string
     {
         return $this->lastName;
@@ -117,9 +148,13 @@ class Biography
     {
         return $this->bio;
     }
-    public function getPage(): string // pas sûr que cela serve
+    private function getPage(): string
     {
-        return "bio.php?name=" . $this->page;
+        return $this->page;
+    }
+    public function getPhpPage(): string
+    {
+        return $this->phpPage;
     }
     public function getImage(): string
     {
@@ -134,9 +169,19 @@ class Biography
     {
         return $this->sizes;
     }
-    public function getSrcAndSizes(): string
+    /**
+     * return attribute srcset and sizes to put in <img>
+     *
+     * @return string
+     */
+    public function getSrcsetAndSizes(): string
     {
         $s = 'srcset="' . substr($this->srcset, 0, -2) . PHP_EOL . '"sizes="' . $this->sizes . '"' . PHP_EOL;
         return $s;
+    }
+
+    public function getImgTag(): string
+    {
+        return '<img src="' . $this->getImage() . '" ' . $this->getSrcsetAndSizes() . ' alt="Photo de ' . $this->getFirstName() . ' ' . $this->getLastName() . '">';
     }
 }

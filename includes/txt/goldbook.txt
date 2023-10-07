@@ -65,3 +65,8 @@ Mail : hop@gmail.fr
 Message :
 blavbla
 *******************************
+Nom : moi
+Mail : moi@gmail.com
+Message :
+coucou les php !!!
+*******************************

@@ -1,5 +1,12 @@
 <?php
-function cleanInput($data)
+
+/**
+ * return input after cleaned
+ *
+ * @param string $data
+ * @return string
+ */
+function cleanInput($data): string
 {
     $data = trim($data);
     $data = stripslashes($data);
